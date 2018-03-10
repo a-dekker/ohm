@@ -1,7 +1,7 @@
 # OHM
 This is a app written for Sailfish OS. It is a helper tool for electronic parts.
 
-Clone of https://github.com/thesignal/ohm
+Fork of https://github.com/thesignal/ohm
 
 **Features:**
 - SMD Resitor Calculator
