@@ -8,6 +8,8 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sat Mar 10 2018 Arno Dekker <jack.tar@example.com> 1.2-2
+- Added dmx-512 dip switch calculator
 * Sat Mar 10 2018 Arno Dekker <jack.tar@example.com> 1.2-1
 - Scale images for multiple resolutions
 - Swapped incorrect pin 2 and 4 for serial db-9 connector

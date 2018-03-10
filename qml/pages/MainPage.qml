@@ -32,6 +32,12 @@ Page {
                 section: "Codes"
                 icon: "../img/capacitor.png"
             }
+            ListElement {
+                page: "dipswitch.qml"
+                title: "DMX dip switch Calculator"
+                section: "Codes"
+                icon: "../img/dipswitch_icon.png"
+            }
 
             ListElement {
                 page: "ohmslaw.qml"

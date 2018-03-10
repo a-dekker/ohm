@@ -8,6 +8,7 @@ Fork of https://github.com/thesignal/ohm
 - Resistor with colorrigns calculator
 - Capacitor calculator
 - Induction colorrings calculator
+- DMX-512 dip switch calculator
 
 **Equations for:**
 - Ohm's Law

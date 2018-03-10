@@ -73,6 +73,7 @@ OTHER_FILES += \
     qml/img/usb_mini.png \
     qml/pages/usb_pins.qml \
     qml/pages/db25_pins.qml \
+    qml/pages/dipswitch.qml \
     qml/pages/serial_pins.qml \
     qml/img/usb_icon.png \
     qml/img/seriell_male.png \
