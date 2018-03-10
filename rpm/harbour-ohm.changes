@@ -1,0 +1,16 @@
+# Rename this file as welkweer.changes to include changelog
+# entries in your RPM file.
+#
+# Add new changelog entries following the format below.
+# Add newest entries to the top of the list.
+# Separate entries from eachother with a blank line.
+
+# * date Author's Name <author's email> version-release
+# - Summary of changes
+
+* Sat Mar 10 2018 Arno Dekker <jack.tar@example.com> 1.2-1
+- Scale images for multiple resolutions
+- Swapped incorrect pin 2 and 4 for serial db-9 connector
+- Replaced incorrect vga male layout
+- Added DB-25 connector (serial and parallel)
+- Added RJ-45 Ethernet connector
