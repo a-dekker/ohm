@@ -23,7 +23,7 @@ Page {
             }
 
             PageHeader {
-                title: "Inductor Colorcode"
+                title: qsTr("Inductor Colorcode")
             }
 
             function resolvId(nr) {
@@ -108,7 +108,7 @@ Page {
             // insert graphic here
             Label {
                 id : ohmlabel
-                text : " H"
+                text : qsTr(" H")
                 font.pixelSize: Theme.fontSizeMedium
                 anchors {
                     horizontalCenter: parent.horizontalCenter

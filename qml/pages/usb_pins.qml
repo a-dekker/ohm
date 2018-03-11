@@ -9,28 +9,28 @@ Page {
         id: pagesModel
 
         ListElement {
-            pin : "PIN 1"
-            col : ""
-            title: "Ground"
-            description : "Ground"
+            pin : qsTr("PIN 1")
+            col : qsTr("")
+            title: qsTr("Ground")
+            description : qsTr("Ground")
         }
         ListElement {
-            pin : "PIN 2"
-            col : ""
-            title: "Data+"
-            description: "Data+"
+            pin : qsTr("PIN 2")
+            col : qsTr("")
+            title: qsTr("Data+")
+            description: qsTr("Data+")
         }
         ListElement {
-            pin : "PIN 3"
-            col : ""
-            title: "Data−"
-            description: "Data−"
+            pin : qsTr("PIN 3")
+            col : qsTr("")
+            title: qsTr("Data−")
+            description: qsTr("Data−")
         }
         ListElement {
-            pin : "PIN 4"
-            col : ""
-            title: "VCC (+5 V)"
-            description : "VCC (+5 V)"
+            pin : qsTr("PIN 4")
+            col : qsTr("")
+            title: qsTr("VCC (+5 V)")
+            description : qsTr("VCC (+5 V)")
         }
     }
 
@@ -39,7 +39,7 @@ Page {
         contentHeight: column.height + pagehead.height + list.height
         PageHeader {
             id : pagehead
-            title: "USB pin assignments"
+            title: qsTr("USB pin assignments")
         }
 
         Column {
@@ -153,5 +153,3 @@ Page {
         }
     }
 }
-
-

@@ -70,7 +70,7 @@ Page {
             spacing: Theme.paddingLarge
 
             PageHeader {
-                title: "Ohm's Law"
+                title: qsTr("Ohm's Law")
             }
 
             Image {
@@ -88,39 +88,39 @@ Page {
 
             TextField {
                 id: voltage
-                label: "Voltage (Volt)"
+                label: qsTr("Voltage (Volt)")
                 width: parent.width
-                placeholderText: "U/V"
+                placeholderText: qsTr("U/V")
                 inputMethodHints: Qt.ImhPreferNumbers | Qt.ImhNoPredictiveText
                 EnterKey.onClicked: calculate()
             }
 
             TextField {
                 id: current
-                label: "Current (Ampere)"
+                label: qsTr("Current (Ampere)")
                 width: parent.width
-                placeholderText: "I/A"
+                placeholderText: qsTr("I/A")
                 inputMethodHints: Qt.ImhPreferNumbers | Qt.ImhNoPredictiveText
                 EnterKey.onClicked: calculate()
             }
 
             TextField {
                 id: resistance
-                label: "Resistance (Ohm)"
+                label: qsTr("Resistance (Ohm)")
                 width: parent.width
-                placeholderText: "R/Ω"
+                placeholderText: qsTr("R/Ω")
                 inputMethodHints: Qt.ImhPreferNumbers | Qt.ImhNoPredictiveText
                 EnterKey.onClicked: calculate()
             }
 
             Button {
-                text: "Calculate!"
+                text: qsTr("Calculate!")
                 anchors.horizontalCenter: parent.horizontalCenter
                 onClicked: calculate()
             }
 
             Label {
-                text: "Enter any two values and click the button to calculate the third. You can use SI prefixes like k, M, G, m, u, etc. by typing them as the last letter."
+                text: qsTr("Enter any two values and click the button to calculate the third. You can use SI prefixes like k, M, G, m, u, etc. by typing them as the last letter.")
                 wrapMode: Text.Wrap
                 width: parent.width
                 horizontalAlignment: Text.AlignHCenter

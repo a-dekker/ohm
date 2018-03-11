@@ -14,7 +14,7 @@ Page {
             property string ohmval: ""
             width: parent.width
             spacing: Theme.paddingLarge
-            PageHeader { title: "SMD Resistor Code" }
+            PageHeader { title: qsTr("SMD Resistor Code") }
             Image {
                 anchors {
                     horizontalCenter: parent.horizontalCenter
@@ -174,7 +174,7 @@ Page {
             }
 
             Label {
-                text : "Value"
+                text : qsTr("Value")
                 color: Theme.secondaryColor
                 anchors.horizontalCenter: parent.horizontalCenter
             }
@@ -187,8 +187,8 @@ Page {
                 width: parent.width
                 focus: true
                 inputMethodHints: Qt.ImhNoPredictiveText
-                label: "Resistor Code"
-                placeholderText: "Type Code here"
+                label: qsTr("Resistor Code")
+                placeholderText: qsTr("Type Code here")
                 horizontalAlignment: textAlignment
                 EnterKey.onClicked: {
                     column.updateValues();

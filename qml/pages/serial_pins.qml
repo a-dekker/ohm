@@ -8,58 +8,58 @@ Page {
         id: pagesModel
 
         ListElement {
-            pin: "PIN 1"
-            col: "RED"
-            title: "Signal Ground"
-            description: "Signal Ground"
+            pin: qsTr("PIN 1")
+            col: qsTr("RED")
+            title: qsTr("Signal Ground")
+            description: qsTr("Signal Ground")
         }
         ListElement {
-            pin: "PIN 2"
-            col: "ID2/RES"
-            title: "Received Data"
-            description: "Received Data"
+            pin: qsTr("PIN 2")
+            col: qsTr("ID2/RES")
+            title: qsTr("Received Data")
+            description: qsTr("Received Data")
         }
         ListElement {
-            pin: "PIN 3"
-            col: "BLUE"
-            title: "Transmitted Data"
-            description: "Transmitted Data"
+            pin: qsTr("PIN 3")
+            col: qsTr("BLUE")
+            title: qsTr("Transmitted Data")
+            description: qsTr("Transmitted Data")
         }
         ListElement {
-            pin: "PIN 4"
-            col: "GREEN"
-            title: "Data Terminal Ready"
-            description: "Data Terminal Ready"
+            pin: qsTr("PIN 4")
+            col: qsTr("GREEN")
+            title: qsTr("Data Terminal Ready")
+            description: qsTr("Data Terminal Ready")
         }
         ListElement {
-            pin: "PIN 5"
-            col: "GND"
-            title: "Data Carrier Connect"
-            description: "Data Carrier Connect"
+            pin: qsTr("PIN 5")
+            col: qsTr("GND")
+            title: qsTr("Data Carrier Connect")
+            description: qsTr("Data Carrier Connect")
         }
         ListElement {
-            pin: "PIN 6"
-            col: "RED_RTN"
-            title: "Data Set Ready"
-            description: "Data Set Ready"
+            pin: qsTr("PIN 6")
+            col: qsTr("RED_RTN")
+            title: qsTr("Data Set Ready")
+            description: qsTr("Data Set Ready")
         }
         ListElement {
-            pin: "PIN 7"
-            col: "GREEN_RTN"
-            title: "Request to Send"
-            description: "Request to Send"
+            pin: qsTr("PIN 7")
+            col: qsTr("GREEN_RTN")
+            title: qsTr("Request to Send")
+            description: qsTr("Request to Send")
         }
         ListElement {
-            pin: "PIN 8"
-            col: "BLUE_RTN"
-            title: "Clear To Send"
-            description: "Clear To Send"
+            pin: qsTr("PIN 8")
+            col: qsTr("BLUE_RTN")
+            title: qsTr("Clear To Send")
+            description: qsTr("Clear To Send")
         }
         ListElement {
-            pin: "PIN 9"
-            col: "KEY/PWR"
-            title: "Ring Indicator"
-            description: "Ring Indicator"
+            pin: qsTr("PIN 9")
+            col: qsTr("KEY/PWR")
+            title: qsTr("Ring Indicator")
+            description: qsTr("Ring Indicator")
         }
     }
 
@@ -68,7 +68,7 @@ Page {
         contentHeight: column.height + pagehead.height + list.height
         PageHeader {
             id: pagehead
-            title: "DB-9 pin assignments"
+            title: qsTr("DB-9 pin assignments")
         }
 
         Column {

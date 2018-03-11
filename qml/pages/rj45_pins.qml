@@ -63,7 +63,7 @@ Page {
         contentHeight: column.height + pagehead.height + list.height
         PageHeader {
             id: pagehead
-            title: "RJ-45 pin assignments"
+            title: qsTr("RJ-45 pin assignments")
         }
 
         Column {

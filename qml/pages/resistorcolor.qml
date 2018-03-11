@@ -24,7 +24,7 @@ Page {
             }
 
             PageHeader {
-                title: "Resistor Colorcode"
+                title: qsTr("Resistor Colorcode")
             }
 
             function resolvId(nr) {
@@ -792,19 +792,19 @@ Page {
             //            }
             PushUpMenu {
                 MenuItem {
-                    text: "Use 3 Rings"
+                    text: qsTr("Use 3 Rings")
                     onClicked: column.rings = 3;
                 }
                 MenuItem {
-                    text: "Use 4 Rings"
+                    text: qsTr("Use 4 Rings")
                     onClicked: column.rings = 4;
                 }
                 MenuItem {
-                    text: "Use 5 Rings"
+                    text: qsTr("Use 5 Rings")
                     onClicked: column.rings = 5;
                 }
                 MenuItem {
-                    text: "Use 6 Rings"
+                    text: qsTr("Use 6 Rings")
                     onClicked: column.rings = 6;
                 }
             }

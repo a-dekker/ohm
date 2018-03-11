@@ -10,81 +10,81 @@ Page {
 
             ListElement {
                 page: "resistorcolor.qml"
-                title: "Resistor Colorcode"
+                title: qsTr("Resistor Colorcode")
                 section: "Codes"
                 icon: "../img/resistor_big_4rings.png"
             }
             ListElement {
                 page: "smdresistorcalc.qml"
-                title: "SMD Resistor Code"
+                title: qsTr("SMD Resistor Code")
                 section: "Codes"
                 icon: "../img/smdresistor.png"
             }
             ListElement {
                 page: "induction.qml"
-                title: "Inductor Colorcodes"
+                title: qsTr("Inductor Colorcodes")
                 section: "Codes"
                 icon: "../img/spiral.png"
             }
             ListElement {
                 page: "capacitorcodes.qml"
-                title: "Capacitor Codes"
+                title: qsTr("Capacitor Codes")
                 section: "Codes"
                 icon: "../img/capacitor.png"
             }
             ListElement {
                 page: "dipswitch.qml"
-                title: "DMX dip switch Calculator"
+                title: qsTr("DMX dip switch Calculator")
                 section: "Codes"
                 icon: "../img/dipswitch_icon.png"
             }
 
             ListElement {
                 page: "ohmslaw.qml"
-                title: "Ohm's Law"
+                title: qsTr("Ohm's Law")
                 section: "Equations"
                 icon: "../img/ohmslaw.png"
             }
             ListElement {
                 page: "coil.qml"
-                title: "Air-Core Coil"
+                title: qsTr("Air-Core Coil")
                 section: "Equations"
                 icon: "../img/coil.png"
             }
             ListElement {
                 page: "lcresonator.qml"
-                title: "LC Resonator"
+                title: qsTr("LC Resonator")
                 section: "Equations"
                 icon: "../img/lcresonator.png"
             }
 
             ListElement {
                 page: "usb_pins.qml"
-                title: "USB"
+                title: qsTr("USB")
                 section: "Connector Pin Assignments"
                 icon: "../img/usb_icon.png"
             }
             ListElement {
                 page: "vga_pins.qml"
-                title: "VGA"
+                title: qsTr("VGA")
                 section: "Connector Pin Assignments"
                 icon: "../img/vga_icon.png"
             }
             ListElement {
                 page: "serial_pins.qml"
-                title: "DB-9"
+                title: qsTr("DB-9")
                 section: "Connector Pin Assignments"
                 icon: "../img/seriell_icon.png"
             }
             ListElement {
                 page: "db25_pins.qml"
-                title: "DB-25"
+                title: qsTr("DB-25")
                 section: "Connector Pin Assignments"
                 icon: "../img/DSUB_25pin_icon.png"
             }
             ListElement {
                 page: "rj45_pins.qml"
-                title: "RJ-45"
+                title: qsTr("RJ-45")
                 section: "Connector Pin Assignments"
                 icon: "../img/rj45-icon.png"
             }
@@ -108,7 +108,7 @@ Page {
         // PullDownMenu and PushUpMenu must be declared in SilicaFlickable, SilicaListView or SilicaGridView
         PullDownMenu {
             MenuItem {
-                text: "About"
+                text: qsTr("About")
                 onClicked: pageStack.push(Qt.resolvedUrl("About.qml"))
             }
         }

@@ -98,7 +98,7 @@ Page {
             width: parent.width
             spacing: Theme.paddingLarge
 
-            PageHeader { title: "Air-Core Coil" }
+            PageHeader { title: qsTr("Air-Core Coil") }
 
             Image {
                 id : img1
@@ -115,7 +115,7 @@ Page {
 
             TextField {
                 id: diameter
-                label: "Medium diameter (meter)"
+                label: qsTr("Medium diameter (meter)")
                 width: parent.width
                 placeholderText: "d/m"
                 inputMethodHints: Qt.ImhPreferNumbers | Qt.ImhNoPredictiveText
@@ -124,16 +124,16 @@ Page {
 
             TextField {
                 id: length
-                label: "Length (meter)"
+                label: qsTr("Length (meter)")
                 width: parent.width
-                placeholderText: "l/m"
+                placeholderText: qsTr("l/m")
                 inputMethodHints: Qt.ImhPreferNumbers | Qt.ImhNoPredictiveText
                 EnterKey.onClicked: calculate()
             }
 
             TextField {
                 id: windings
-                label: "Number of windings"
+                label: qsTr("Number of windings")
                 width: parent.width
                 placeholderText: "N"
                 inputMethodHints: Qt.ImhPreferNumbers | Qt.ImhNoPredictiveText
@@ -142,7 +142,7 @@ Page {
 
             TextField {
                 id: inductance
-                label: "Inductance (Henry)"
+                label: qsTr("Inductance (Henry)")
                 width: parent.width
                 placeholderText: "L/H"
                 inputMethodHints: Qt.ImhPreferNumbers | Qt.ImhNoPredictiveText
@@ -150,13 +150,13 @@ Page {
             }
 
             Button {
-                text: "Calculate!"
+                text: qsTr("Calculate!")
                 anchors.horizontalCenter: parent.horizontalCenter;
                 onClicked: calculate();
             }
 
             Label {
-                text: "Enter any three values and click the button to calculate the fourth. You can use SI prefixes like k, M, G, m, u, etc. by typing them as the last letter."
+                text: qsTr("Enter any three values and click the button to calculate the fourth. You can use SI prefixes like k, M, G, m, u, etc. by typing them as the last letter.")
                 wrapMode: Text.Wrap
                 width: parent.width
                 horizontalAlignment: Text.AlignHCenter

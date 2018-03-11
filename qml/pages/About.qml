@@ -15,10 +15,10 @@ Page {
             spacing: Theme.paddingLarge
             width: parent.width
             PageHeader {
-                title: "About"
+                title: qsTr("About")
             }
             SectionHeader {
-                text: "Authors"
+                text: qsTr("Authors")
             }
 
             Label {
@@ -35,7 +35,7 @@ Page {
             }
 
             SectionHeader {
-                text: "Artwork"
+                text: qsTr("Artwork")
             }
 
             Label {

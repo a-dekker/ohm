@@ -9,64 +9,64 @@ Page {
         id: pagesModel
 
         ListElement {
-            pin : "PIN 1"
-            col : "RED"
-            title: "Shield"
-            description : "Shield Ground"
+            pin : qsTr("PIN 1")
+            col : qsTr("RED")
+            title: qsTr("Shield")
+            description : qsTr("Shield Ground")
         }
         ListElement {
-            pin : "PIN 2"
-            col : "BLUE"
-            title: "TXD"
-            description: "Transmit Data"
+            pin : qsTr("PIN 2")
+            col : qsTr("BLUE")
+            title: qsTr("TXD")
+            description: qsTr("Transmit Data")
         }
         ListElement {
-            pin : "PIN 3"
-            col : "ID2/RES"
-            title: "RXD"
-            description: "Receive Data"
+            pin : qsTr("PIN 3")
+            col : qsTr("ID2/RES")
+            title: qsTr("RXD")
+            description: qsTr("Receive Data")
         }
         ListElement {
-            pin : "PIN 4"
-            col : "GREEN_RTN"
-            title: "RTS"
-            description : "Request to Send"
+            pin : qsTr("PIN 4")
+            col : qsTr("GREEN_RTN")
+            title: qsTr("RTS")
+            description : qsTr("Request to Send")
         }
         ListElement {
-            pin : "PIN 5"
-            col : "BLUE_RTN"
-            title: "CTS"
-            description : "Clear to Send"
+            pin : qsTr("PIN 5")
+            col : qsTr("BLUE_RTN")
+            title: qsTr("CTS")
+            description : qsTr("Clear to Send")
         }
         ListElement {
-            pin : "PIN 6"
-            col : "RED_RTN"
-            title: "DSR"
-            description : "Data Set Ready"
+            pin : qsTr("PIN 6")
+            col : qsTr("RED_RTN")
+            title: qsTr("DSR")
+            description : qsTr("Data Set Ready")
         }
         ListElement {
-            pin : "PIN 7"
-            col : "YELLOW"
-            title: "GND"
-            description: "System Ground"
+            pin : qsTr("PIN 7")
+            col : qsTr("YELLOW")
+            title: qsTr("GND")
+            description: qsTr("System Ground")
         }
         ListElement {
-            pin : "PIN 8"
-            col : "GND"
-            title: "CD"
-            description: "Carrier Detect"
+            pin : qsTr("PIN 8")
+            col : qsTr("GND")
+            title: qsTr("CD")
+            description: qsTr("Carrier Detect")
         }
         ListElement {
-            pin : "PIN 20"
-            col : "GREEN"
-            title: "DTR"
-            description: "Data Terminal Ready"
+            pin : qsTr("PIN 20")
+            col : qsTr("GREEN")
+            title: qsTr("DTR")
+            description: qsTr("Data Terminal Ready")
         }
         ListElement {
-            pin : "PIN 22"
-            col : "KEY/PWR"
-            title: "RI"
-            description: "Ring Indicator"
+            pin : qsTr("PIN 22")
+            col : qsTr("KEY/PWR")
+            title: qsTr("RI")
+            description: qsTr("Ring Indicator")
         }
     }
 
@@ -74,154 +74,154 @@ Page {
         id: pagesModel2
 
         ListElement {
-            pin : "PIN 1"
-            col : "Out"
-            title: "Strobe"
-            description : "Control-0"
+            pin : qsTr("PIN 1")
+            col : qsTr("Out")
+            title: qsTr("Strobe")
+            description : qsTr("Control-0")
         }
         ListElement {
-            pin : "PIN 2"
-            col : "In/Out"
-            title: "Data0"
-            description: "Data Bit 0"
+            pin : qsTr("PIN 2")
+            col : qsTr("In/Out")
+            title: qsTr("Data0")
+            description: qsTr("Data Bit 0")
         }
         ListElement {
-            pin : "PIN 3"
-            col : "In/Out"
-            title: "Data1"
-            description: "Data Bit 1"
+            pin : qsTr("PIN 3")
+            col : qsTr("In/Out")
+            title: qsTr("Data1")
+            description: qsTr("Data Bit 1")
         }
         ListElement {
-            pin : "PIN 4"
-            col : "In/Out"
-            title: "Data2"
-            description : "Data Bit 2"
+            pin : qsTr("PIN 4")
+            col : qsTr("In/Out")
+            title: qsTr("Data2")
+            description : qsTr("Data Bit 2")
         }
         ListElement {
-            pin : "PIN 5"
-            col : "In/Out"
-            title: "Data3"
-            description : "Data Bit 3"
+            pin : qsTr("PIN 5")
+            col : qsTr("In/Out")
+            title: qsTr("Data3")
+            description : qsTr("Data Bit 3")
         }
         ListElement {
-            pin : "PIN 6"
-            col : "In/Out"
-            title: "Data4"
-            description : "Data Bit 4"
+            pin : qsTr("PIN 6")
+            col : qsTr("In/Out")
+            title: qsTr("Data4")
+            description : qsTr("Data Bit 4")
         }
         ListElement {
-            pin : "PIN 7"
-            col : "In/Out"
-            title: "Data5"
-            description: "Data Bit 5"
+            pin : qsTr("PIN 7")
+            col : qsTr("In/Out")
+            title: qsTr("Data5")
+            description: qsTr("Data Bit 5")
         }
         ListElement {
-            pin : "PIN 8"
-            col : "In/Out"
-            title: "Data6"
-            description: "Data Bit 6"
+            pin : qsTr("PIN 8")
+            col : qsTr("In/Out")
+            title: qsTr("Data6")
+            description: qsTr("Data Bit 6")
         }
         ListElement {
-            pin : "PIN 9"
-            col : "In/Out"
-            title: "Data7"
-            description: "Data Bit 7"
+            pin : qsTr("PIN 9")
+            col : qsTr("In/Out")
+            title: qsTr("Data7")
+            description: qsTr("Data Bit 7")
         }
         ListElement {
-            pin : "PIN 10"
-            col : "In"
-            title: "Ack"
-            description: "Status-6"
+            pin : qsTr("PIN 10")
+            col : qsTr("In")
+            title: qsTr("Ack")
+            description: qsTr("Status-6")
         }
         ListElement {
-            pin : "PIN 11"
-            col : "In"
-            title: "Busy"
-            description: "Status-7"
+            pin : qsTr("PIN 11")
+            col : qsTr("In")
+            title: qsTr("Busy")
+            description: qsTr("Status-7")
         }
         ListElement {
-            pin : "PIN 12"
-            col : "In"
-            title: "Paper-Out"
-            description: "Status-5"
+            pin : qsTr("PIN 12")
+            col : qsTr("In")
+            title: qsTr("Paper-Out")
+            description: qsTr("Status-5")
         }
         ListElement {
-            pin : "PIN 13"
-            col : "In"
-            title: "Select"
-            description: "Status-4"
+            pin : qsTr("PIN 13")
+            col : qsTr("In")
+            title: qsTr("Select")
+            description: qsTr("Status-4")
         }
         ListElement {
-            pin : "PIN 14"
-            col : "Out"
-            title: "Linefeed"
-            description: "Control-1"
+            pin : qsTr("PIN 14")
+            col : qsTr("Out")
+            title: qsTr("Linefeed")
+            description: qsTr("Control-1")
         }
         ListElement {
-            pin : "PIN 15"
-            col : "In"
-            title: "Error"
-            description: "Status-3"
+            pin : qsTr("PIN 15")
+            col : qsTr("In")
+            title: qsTr("Error")
+            description: qsTr("Status-3")
         }
         ListElement {
-            pin : "PIN 16"
-            col : "Out"
-            title: "Initialize"
-            description: "Control-2"
+            pin : qsTr("PIN 16")
+            col : qsTr("Out")
+            title: qsTr("Initialize")
+            description: qsTr("Control-2")
         }
         ListElement {
-            pin : "PIN 17"
-            col : "Out"
-            title: "Select-Printer"
-            description: "Control-3"
+            pin : qsTr("PIN 17")
+            col : qsTr("Out")
+            title: qsTr("Select-Printer")
+            description: qsTr("Control-3")
         }
         ListElement {
-            pin : "PIN 18"
-            col : "-"
-            title: "Ground"
-            description: "Data Bit 0 Return"
+            pin : qsTr("PIN 18")
+            col : qsTr("-")
+            title: qsTr("Ground")
+            description: qsTr("Data Bit 0 Return")
         }
         ListElement {
-            pin : "PIN 19"
-            col : "-"
-            title: "Ground"
-            description: "Data Bit 1 Return"
+            pin : qsTr("PIN 19")
+            col : qsTr("-")
+            title: qsTr("Ground")
+            description: qsTr("Data Bit 1 Return")
         }
         ListElement {
-            pin : "PIN 20"
-            col : "-"
-            title: "Ground"
-            description: "Data Bit 2 Return"
+            pin : qsTr("PIN 20")
+            col : qsTr("-")
+            title: qsTr("Ground")
+            description: qsTr("Data Bit 2 Return")
         }
         ListElement {
-            pin : "PIN 21"
-            col : "-"
-            title: "Ground"
-            description: "Data Bit 3 Return"
+            pin : qsTr("PIN 21")
+            col : qsTr("-")
+            title: qsTr("Ground")
+            description: qsTr("Data Bit 3 Return")
         }
         ListElement {
-            pin : "PIN 22"
-            col : "-"
-            title: "Ground"
-            description: "Data Bit 4 Return"
+            pin : qsTr("PIN 22")
+            col : qsTr("-")
+            title: qsTr("Ground")
+            description: qsTr("Data Bit 4 Return")
         }
         ListElement {
-            pin : "PIN 23"
-            col : "-"
-            title: "Ground"
-            description: "Data Bit 5 Return"
+            pin : qsTr("PIN 23")
+            col : qsTr("-")
+            title: qsTr("Ground")
+            description: qsTr("Data Bit 5 Return")
         }
         ListElement {
-            pin : "PIN 24"
-            col : "-"
-            title: "Ground"
-            description: "Data Bit 6 Return"
+            pin : qsTr("PIN 24")
+            col : qsTr("-")
+            title: qsTr("Ground")
+            description: qsTr("Data Bit 6 Return")
         }
         ListElement {
-            pin : "PIN 25"
-            col : "-"
-            title: "Ground"
-            description: "Data Bit 7 Return"
+            pin : qsTr("PIN 25")
+            col : qsTr("-")
+            title: qsTr("Ground")
+            description: qsTr("Data Bit 7 Return")
         }
     }
 
@@ -230,7 +230,7 @@ Page {
         contentHeight: column.height + pagehead.height + list.height
         PageHeader {
             id : pagehead
-            title: "DB25 pin assignments"
+            title: qsTr("DB25 pin assignments")
         }
 
         Column {

@@ -156,7 +156,7 @@ Page {
             }
 
             Label {
-                text : "Value"
+                text :  qsTr("Value")
                 color: Theme.secondaryColor
                 anchors.horizontalCenter: parent.horizontalCenter
             }
@@ -169,8 +169,8 @@ Page {
                 width: parent.width
                 focus: true
                 inputMethodHints: Qt.ImhNoPredictiveText
-                label: "Capacitor Code"
-                placeholderText: "Type Code here"
+                label:  qsTr("Capacitor Code")
+                placeholderText:  qsTr("Type Code here")
                 horizontalAlignment: textAlignment
                 EnterKey.onClicked: {
                     column.updateValues();

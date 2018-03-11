@@ -82,4 +82,18 @@ OTHER_FILES += \
     qml/harbour-ohm.qml \
     harbour-ohm.png \
     harbour-ohm.desktop \
+    translations/*.ts \
     rpm/harbour-ohm.spec
+
+INSTALLS += translations
+# only include these files for translation:
+lupdate_only {
+    SOURCES = qml/*.qml \
+              qml/pages/*.qml
+}
+translations.files = translations
+translations.path = $${DEPLOYMENT_PATH}
+
+# to disable building translations every time, comment out the
+# following CONFIG line
+CONFIG += sailfishapp_i18n

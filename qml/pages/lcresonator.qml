@@ -87,39 +87,39 @@ Page {
 
             TextField {
                 id: inductance
-                label: "Inductance (Henry)"
+                label: qsTr("Inductance (Henry)")
                 width: parent.width
-                placeholderText: "L/H"
+                placeholderText: qsTr("L/H")
                 inputMethodHints: Qt.ImhPreferNumbers | Qt.ImhNoPredictiveText
                 EnterKey.onClicked: calculate()
             }
 
             TextField {
                 id: capacity
-                label: "Capacity (Farad)"
+                label: qsTr("Capacity (Farad)")
                 width: parent.width
-                placeholderText: "C/F"
+                placeholderText: qsTr("C/F")
                 inputMethodHints: Qt.ImhPreferNumbers | Qt.ImhNoPredictiveText
                 EnterKey.onClicked: calculate()
             }
 
             TextField {
                 id: frequency
-                label: "Frequency (Hertz)"
+                label: qsTr("Frequency (Hertz)")
                 width: parent.width
-                placeholderText: "f/Hz"
+                placeholderText: qsTr("f/Hz")
                 inputMethodHints: Qt.ImhPreferNumbers | Qt.ImhNoPredictiveText
                 EnterKey.onClicked: calculate()
             }
 
             Button {
-                text: "Calculate!"
+                text: qsTr("Calculate!")
                 anchors.horizontalCenter: parent.horizontalCenter;
                 onClicked: calculate();
             }
 
             Label {
-                text: "Enter any two values and click the button to calculate the third. You can use SI prefixes like k, M, G, m, u, etc. by typing them as the last letter."
+                text: qsTr("Enter any two values and click the button to calculate the third. You can use SI prefixes like k, M, G, m, u, etc. by typing them as the last letter.")
                 wrapMode: Text.Wrap
                 width: parent.width
                 horizontalAlignment: Text.AlignHCenter
