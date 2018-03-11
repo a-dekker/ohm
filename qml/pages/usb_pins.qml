@@ -10,25 +10,25 @@ Page {
 
         ListElement {
             pin : qsTr("PIN 1")
-            col : qsTr("")
+            col : ""
             title: qsTr("Ground")
             description : qsTr("Ground")
         }
         ListElement {
             pin : qsTr("PIN 2")
-            col : qsTr("")
+            col : ""
             title: qsTr("Data+")
             description: qsTr("Data+")
         }
         ListElement {
             pin : qsTr("PIN 3")
-            col : qsTr("")
+            col : ""
             title: qsTr("Data−")
             description: qsTr("Data−")
         }
         ListElement {
             pin : qsTr("PIN 4")
-            col : qsTr("")
+            col : ""
             title: qsTr("VCC (+5 V)")
             description : qsTr("VCC (+5 V)")
         }
@@ -52,7 +52,7 @@ Page {
                 id : img1
                 anchors {
                     horizontalCenter: parent.horizontalCenter
-                    topMargin: Theme.paddingSmall /4
+                    topMargin: Theme.paddingSmall / 4
                     bottomMargin: Theme.paddingSmall / 4
                 }
                 fillMode: Image.PreserveAspectFit
@@ -65,7 +65,7 @@ Page {
                 id : img2
                 anchors {
                     horizontalCenter: parent.horizontalCenter
-                    topMargin: Theme.paddingSmall /4
+                    topMargin: Theme.paddingSmall / 4
                     bottomMargin: Theme.paddingSmall / 4
                 }
                 fillMode: Image.PreserveAspectFit
@@ -120,19 +120,6 @@ Page {
                         font.pixelSize: Theme.fontSizeExtraSmall
                         color: Theme.primaryColor
                     }
-                    //                    Label {
-                    //                        id : co
-                    //                        anchors {
-                    //                            left : pin.right
-                    //                            leftMargin: Theme.paddingLarge*2
-                    //                            rightMargin: Theme.paddingLarge*2
-                    //                            verticalCenter: parent.verticalCenter
-                    //                        }
-                    //                        height: Theme.itemSizeSmall / 1.5
-                    //                        text: model.col
-                    //                        font.pixelSize: Theme.fontSizeExtraSmall
-                    //                        color: Theme.primaryColor
-                    //                    }
                     Label {
                         id : pin
                         anchors {

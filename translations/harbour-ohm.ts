@@ -1091,14 +1091,14 @@
 <context>
     <name>usb_pins</name>
     <message>
-        <location filename="../qml/pages/usb_pins.qml" line="12"/>
-        <source>PIN 1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../qml/pages/usb_pins.qml" line="13"/>
         <source></source>
         <translation></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/usb_pins.qml" line="12"/>
+        <source>PIN 1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="14"/>
