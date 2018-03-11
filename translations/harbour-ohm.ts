@@ -738,17 +738,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/dipswitch.qml" line="132"/>
+        <location filename="../qml/pages/dipswitch.qml" line="186"/>
         <source>Value</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/dipswitch.qml" line="138"/>
+        <location filename="../qml/pages/dipswitch.qml" line="192"/>
         <source>Enter value (max 511)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/dipswitch.qml" line="152"/>
+        <location filename="../qml/pages/dipswitch.qml" line="206"/>
         <source>Enter your value</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1098,7 +1098,7 @@
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="13"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="14"/>
@@ -1109,11 +1109,6 @@
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="18"/>
         <source>PIN 2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/usb_pins.qml" line="19"/>
-        <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1128,11 +1123,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/usb_pins.qml" line="25"/>
-        <source></source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../qml/pages/usb_pins.qml" line="26"/>
         <location filename="../qml/pages/usb_pins.qml" line="27"/>
         <source>Data−</source>
@@ -1141,11 +1131,6 @@
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="30"/>
         <source>PIN 4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/usb_pins.qml" line="31"/>
-        <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -14,10 +14,10 @@ Name:       harbour-ohm
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Ohm
 Version:    1.2
-Release:    2
+Release:    3
 Group:      Qt/Qt
 License:    LICENSE
-URL:        https://github.com/thesignal/ohm
+URL:        https://github.com/a-dekker/ohm
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   sailfishsilica-qt5
 BuildRequires:  pkgconfig(Qt5Core)

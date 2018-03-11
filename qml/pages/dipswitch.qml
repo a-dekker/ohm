@@ -43,6 +43,7 @@ Page {
     }
 
     SilicaFlickable {
+        id: flick
         anchors.fill: parent
         contentHeight: column.height + pagehead.height
         PageHeader {
@@ -126,6 +127,60 @@ Page {
                     height: mainapp.smallScreen ? 116 : 190
                 }
             }
+            Row {
+                anchors.horizontalCenter: parent.horizontalCenter
+                spacing: mainapp.smallScreen ? Theme.paddingSmall : Theme.paddingMedium
+                Label {
+                    text: " 1"
+                    width: mainapp.smallScreen ? 49 : 80
+                    horizontalAlignment: Text.AlignHCenter
+                }
+                Label {
+                    text: " 2"
+                    width: mainapp.smallScreen ? 49 : 80
+                    horizontalAlignment: Text.AlignHCenter
+                }
+                Label {
+                    text: " 3"
+                    width: mainapp.smallScreen ? 49 : 80
+                    horizontalAlignment: Text.AlignHCenter
+                }
+                Label {
+                    text: " 4"
+                    width: mainapp.smallScreen ? 49 : 80
+                    horizontalAlignment: Text.AlignHCenter
+                }
+                Label {
+                    text: " 5"
+                    width: mainapp.smallScreen ? 49 : 80
+                    horizontalAlignment: Text.AlignHCenter
+                }
+                Label {
+                    text: " 6"
+                    width: mainapp.smallScreen ? 49 : 80
+                    horizontalAlignment: Text.AlignHCenter
+                }
+                Label {
+                    text: " 7"
+                    width: mainapp.smallScreen ? 49 : 80
+                    horizontalAlignment: Text.AlignHCenter
+                }
+                Label {
+                    text: " 8"
+                    width: mainapp.smallScreen ? 49 : 80
+                    horizontalAlignment: Text.AlignHCenter
+                }
+                Label {
+                    text: " 9"
+                    width: mainapp.smallScreen ? 49 : 80
+                    horizontalAlignment: Text.AlignHCenter
+                }
+                Label {
+                    text: "10"
+                    width: mainapp.smallScreen ? 49 : 80
+                    horizontalAlignment: Text.AlignHCenter
+                }
+            }
 
             SectionHeader {
                 text: qsTr("Value")
@@ -150,7 +205,6 @@ Page {
                 }
                 label: qsTr("Enter your value")
                 focus: true
-                focusOutBehavior: -1
             }
 
             VerticalScrollDecorator {

@@ -85,7 +85,7 @@ OTHER_FILES += \
     translations/*.ts \
     rpm/harbour-ohm.spec
 
-INSTALLS += translations
+# INSTALLS += translations
 # only include these files for translation:
 lupdate_only {
     SOURCES = qml/*.qml \

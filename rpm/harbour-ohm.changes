@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sun Mar 11 2018 Arno Dekker <jack.tar@example.com> 1.2-3
+- Added numbers to dmx-512 dip switches
+- Strings translatable
 * Sat Mar 10 2018 Arno Dekker <jack.tar@example.com> 1.2-2
 - Added dmx-512 dip switch calculator
 * Sat Mar 10 2018 Arno Dekker <jack.tar@example.com> 1.2-1
