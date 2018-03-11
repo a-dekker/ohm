@@ -13,7 +13,6 @@ Page {
         var tekst = new Array
         var omkeren = new Array()
         var omRes = new Array()
-        calc()
         res = num.toString(2)
 
         for (var i = 0; i <= res.length - 1; i++) {
