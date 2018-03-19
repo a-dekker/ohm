@@ -8,6 +8,8 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Mon Mar 19 2018 Arno Dekker <jack.tar@example.com> 1.2-5
+- More emphasis on selected ring color
 * Sun Mar 11 2018 Arno Dekker <jack.tar@example.com> 1.2-4
 - Removed empty translation strings, as it made the usb page crash
 * Sun Mar 11 2018 Arno Dekker <jack.tar@example.com> 1.2-3

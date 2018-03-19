@@ -235,50 +235,74 @@ Page {
                 if (column <= rep00.model) {
                     //console.log("rep00 :" + rep00.model)
                     rep00.itemAt(column).dimmed = true;
+                    rep00.itemAt(column).radius = 1.0;
+                    rep00.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep10.model) {
                     //console.log("rep10 :" + rep10.model)
                     rep10.itemAt(column).dimmed = true;
+                    rep10.itemAt(column).radius = 1.0;
+                    rep10.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep20.model) {
                     //console.log("rep20 :" + rep20.model)
                     rep20.itemAt(column).dimmed = true;
+                    rep20.itemAt(column).radius = 1.0;
+                    rep20.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep30.model) {
                     //console.log("rep30 :" + rep30.model)
                     rep30.itemAt(column).dimmed = true;
+                    rep30.itemAt(column).radius = 1.0;
+                    rep30.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep40.model) {
                     //console.log("rep40 :" + rep40.model)
                     rep40.itemAt(column).dimmed = true;
+                    rep40.itemAt(column).radius = 1.0;
+                    rep40.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep50.model) {
                     //console.log("rep50 :" + rep50.model)
                     rep50.itemAt(column).dimmed = true;
+                    rep50.itemAt(column).radius = 1.0;
+                    rep50.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep60.model) {
                     //console.log("rep60 :" + rep60.model)
                     rep60.itemAt(column).dimmed = true;
+                    rep60.itemAt(column).radius = 1.0;
+                    rep60.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep70.model) {
                     //console.log("rep70 :" + rep70.model)
                     rep70.itemAt(column).dimmed = true;
+                    rep70.itemAt(column).radius = 1.0;
+                    rep70.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep80.model) {
                     //console.log("rep80 :" + rep80.model)
                     rep80.itemAt(column).dimmed = true;
+                    rep80.itemAt(column).radius = 1.0;
+                    rep80.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep90.model) {
                     //console.log("rep90 :" + rep90.model)
                     rep90.itemAt(column).dimmed = true;
+                    rep90.itemAt(column).radius = 1.0;
+                    rep90.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep100.model) {
                     //console.log("rep100 :" + rep100.model)
                     rep100.itemAt(column).dimmed = true;
+                    rep100.itemAt(column).radius = 1.0;
+                    rep100.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep110.model) {
                     //console.log("rep110 :" + rep110.model)
                     rep110.itemAt(column).dimmed = true;
+                    rep110.itemAt(column).radius = 1.0;
+                    rep110.itemAt(column).ratio = 1.0;
                 }
             }
             /* resistor values are stored in this repeater */
@@ -356,6 +380,8 @@ Page {
                     column.setcolor()
                     column.setpositions()
                     row.itemAt(index).dimmed = false;
+                    row.itemAt(index).ratio = 0.0;
+                    row.itemAt(index).radius = 10.0;
                 }
             }
             function getunitprefix() {

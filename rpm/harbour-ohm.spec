@@ -14,7 +14,7 @@ Name:       harbour-ohm
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Ohm
 Version:    1.2
-Release:    4
+Release:    5
 Group:      Qt/Qt
 License:    LICENSE
 URL:        https://github.com/a-dekker/ohm

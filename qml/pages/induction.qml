@@ -8,7 +8,6 @@ Page {
     SilicaFlickable {
         contentHeight: column.height
         anchors.fill: parent
-        //Component.onCompleted: ResistorColor.createRows(column.rings,row1)
         VerticalScrollDecorator {}
         Column {
             id: column
@@ -184,50 +183,74 @@ Page {
                 if (column <= rep00.model) {
                     //console.log("rep00 :" + rep00.model)
                     rep00.itemAt(column).dimmed = true;
+                    rep00.itemAt(column).radius = 1.0;
+                    rep00.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep10.model) {
                     //console.log("rep10 :" + rep10.model)
                     rep10.itemAt(column).dimmed = true;
+                    rep10.itemAt(column).radius = 1.0;
+                    rep10.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep20.model) {
                     //console.log("rep20 :" + rep20.model)
                     rep20.itemAt(column).dimmed = true;
+                    rep20.itemAt(column).radius = 1.0;
+                    rep20.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep30.model) {
                     //console.log("rep30 :" + rep30.model)
                     rep30.itemAt(column).dimmed = true;
+                    rep30.itemAt(column).radius = 1.0;
+                    rep30.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep40.model) {
                     //console.log("rep40 :" + rep40.model)
                     rep40.itemAt(column).dimmed = true;
+                    rep40.itemAt(column).radius = 1.0;
+                    rep40.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep50.model) {
                     //console.log("rep50 :" + rep50.model)
                     rep50.itemAt(column).dimmed = true;
+                    rep50.itemAt(column).radius = 1.0;
+                    rep50.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep60.model) {
                     //console.log("rep60 :" + rep60.model)
                     rep60.itemAt(column).dimmed = true;
+                    rep60.itemAt(column).radius = 1.0;
+                    rep60.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep70.model) {
                     //console.log("rep70 :" + rep70.model)
                     rep70.itemAt(column).dimmed = true;
+                    rep70.itemAt(column).radius = 1.0;
+                    rep70.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep80.model) {
                     //console.log("rep80 :" + rep80.model)
                     rep80.itemAt(column).dimmed = true;
+                    rep80.itemAt(column).radius = 1.0;
+                    rep80.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep90.model) {
                     //console.log("rep90 :" + rep90.model)
                     rep90.itemAt(column).dimmed = true;
+                    rep90.itemAt(column).radius = 1.0;
+                    rep90.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep100.model) {
                     //console.log("rep100 :" + rep100.model)
                     rep100.itemAt(column).dimmed = true;
+                    rep100.itemAt(column).radius = 1.0;
+                    rep100.itemAt(column).ratio = 1.0;
                 }
                 if (column <= rep110.model) {
                     //console.log("rep110 :" + rep110.model)
                     rep110.itemAt(column).dimmed = true;
+                    rep110.itemAt(column).radius = 1.0;
+                    rep110.itemAt(column).ratio = 1.0;
                 }
             }
             /* resistor values are stored in this repeater */
@@ -305,6 +328,8 @@ Page {
                     column.setcolor()
                     column.setpositions()
                     row.itemAt(index).dimmed = false;
+                    row.itemAt(index).ratio = 0.0;
+                    row.itemAt(index).radius = 10.0;
                 }
             }
             function getunitprefix() {
@@ -392,6 +417,7 @@ Page {
                 id : row0
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width
                 Repeater { /* repeater black GlassItem */
                     id : rep00
                     model : column.rings
@@ -400,6 +426,7 @@ Page {
                         color : "#000000"
                         cache: false
                         dimmed : column.defaultdimm
+                        width: row0.width / column.rings
                         MouseArea {
                             id : buttonMouseArea00
                             anchors.fill : parent
@@ -414,6 +441,7 @@ Page {
                 id : row1
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width
                 Repeater {
                     id : rep10
                     model : (column.rings)
@@ -421,6 +449,7 @@ Page {
                         color : "#854928" /* brown */
                         cache: false
                         dimmed : column.defaultdimm
+                        width: row1.width / column.rings
                         MouseArea {
                             id : buttonMouseArea10
                             anchors.fill : parent
@@ -433,6 +462,7 @@ Page {
                 id : row2
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width
                 Repeater {
                     id : rep20
                     model : (column.rings)
@@ -440,6 +470,7 @@ Page {
                         color : "#ff0000"
                         cache: false
                         dimmed : column.defaultdimm
+                        width: row2.width / column.rings
                         MouseArea {
                             id : buttonMouseArea20
                             anchors.fill : parent
@@ -452,6 +483,7 @@ Page {
                 id : row3
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width
                 Repeater { /* repeater orange */
                     id : rep30
                     model : column.rings
@@ -462,6 +494,7 @@ Page {
                         color : "#ff9900" /* orange*/
                         cache: false
                         dimmed : column.defaultdimm
+                        width: row3.width / column.rings
                         MouseArea {
                             id : buttonMouseArea30
                             anchors.fill : parent
@@ -474,6 +507,7 @@ Page {
                 id : row4
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width
                 Repeater { /* repeater, yellow */
                     id : rep40
                     model : (column.rings)
@@ -483,6 +517,7 @@ Page {
                         color : "#ffff00"
                         cache: false
                         dimmed : column.defaultdimm
+                        width: row4.width / column.rings
                         MouseArea {
                             id : buttonMouseArea40
                             anchors.fill : parent
@@ -495,6 +530,7 @@ Page {
                 id : row5
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width
                 Repeater { /* repeater green */
                     id : rep50
                     model : (column.rings)
@@ -504,6 +540,7 @@ Page {
                         color : "#008000"
                         cache: false
                         dimmed : column.defaultdimm
+                        width: row5.width / column.rings
                         MouseArea {
                             id : buttonMouseArea50
                             anchors.fill : parent
@@ -516,6 +553,7 @@ Page {
                 id : row6
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width
                 Repeater { /* repeater, blue */
                     id : rep60
                     model : (column.rings)
@@ -525,6 +563,7 @@ Page {
                         color : "#0000ff"
                         cache: false
                         dimmed : column.defaultdimm
+                        width: row6.width / column.rings
                         MouseArea {
                             id : buttonMouseArea60
                             anchors.fill : parent
@@ -537,6 +576,7 @@ Page {
                 id : row7
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width
                 Repeater { /* repeater, violet */
                     id :rep70
                     model : (column.rings)
@@ -546,6 +586,7 @@ Page {
                         color : "#ee82ee"
                         cache: false
                         dimmed : column.defaultdimm
+                        width: row7.width / column.rings
                         MouseArea {
                             id : buttonMouseArea70
                             anchors.fill : parent
@@ -558,6 +599,7 @@ Page {
                 id : row8
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width
                 Repeater { /* repeater, grey */
                     id : rep80
                     model : (column.rings)
@@ -567,6 +609,7 @@ Page {
                         color : "#808080"
                         cache: false
                         dimmed : column.defaultdimm
+                        width: row8.width / column.rings
                         MouseArea {
                             id : buttonMouseArea80
                             anchors.fill : parent
@@ -579,6 +622,7 @@ Page {
                 id : row9
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width
                 Repeater { /* repeater, white */
                     id : rep90
                     model : (column.rings)
@@ -588,6 +632,7 @@ Page {
                         color : "#ffffff"
                         cache: false
                         dimmed : column.defaultdimm
+                        width: row9.width / column.rings
                         MouseArea {
                             id : buttonMouseArea90
                             anchors.fill : parent
@@ -600,6 +645,7 @@ Page {
                 id : row10
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width
                 Repeater { /* repeater, gold */
                     id : rep100
                     model : (column.rings)
@@ -609,6 +655,7 @@ Page {
                         color : "#ffd700"
                         cache: false
                         dimmed : column.defaultdimm
+                        width: row10.width / column.rings
                         MouseArea {
                             id : buttonMouseArea100
                             anchors.fill : parent
@@ -621,6 +668,7 @@ Page {
                 id : row11
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width
                 Repeater { /* repeater, silver */
                     id : rep110
                     model : (column.rings)
@@ -630,13 +678,13 @@ Page {
                         color : "#c0c0c0"
                         cache: false
                         dimmed : column.defaultdimm
+                        width: row11.width / column.rings
                         MouseArea {
                             id : buttonMouseArea110
                             anchors.fill : parent
                             onClicked: column.clickhandler(color,index,rep110)
                         }
                     }
-
                 }
             }
 

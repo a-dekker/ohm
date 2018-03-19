@@ -756,12 +756,12 @@
 <context>
     <name>induction</name>
     <message>
-        <location filename="../qml/pages/induction.qml" line="26"/>
+        <location filename="../qml/pages/induction.qml" line="25"/>
         <source>Inductor Colorcode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/induction.qml" line="111"/>
+        <location filename="../qml/pages/induction.qml" line="110"/>
         <source> H</source>
         <translation type="unfinished"></translation>
     </message>
@@ -865,22 +865,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/resistorcolor.qml" line="795"/>
+        <location filename="../qml/pages/resistorcolor.qml" line="821"/>
         <source>Use 3 Rings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/resistorcolor.qml" line="799"/>
+        <location filename="../qml/pages/resistorcolor.qml" line="825"/>
         <source>Use 4 Rings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/resistorcolor.qml" line="803"/>
+        <location filename="../qml/pages/resistorcolor.qml" line="829"/>
         <source>Use 5 Rings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/resistorcolor.qml" line="807"/>
+        <location filename="../qml/pages/resistorcolor.qml" line="833"/>
         <source>Use 6 Rings</source>
         <translation type="unfinished"></translation>
     </message>
