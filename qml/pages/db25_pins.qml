@@ -267,7 +267,6 @@ Page {
                 source: "../img/SubD25_female.png"
                 width: 350 * resScale
                 height: 200 * resScale
-
             }
 
             Separator {
@@ -352,7 +351,6 @@ Page {
             }
             SectionHeader {
                 text: qsTr("Parallel")
-                visible: isPortrait || (mainapp.largeScreen)
             }
             Repeater {
                 id : list2
@@ -361,7 +359,6 @@ Page {
 
                 ComboBox {
                     id : combx
-                    //  height : Theme.itemSizeSmall / 1.5
                     width : parent.width
                     currentIndex: -1
                     menu: ContextMenu {

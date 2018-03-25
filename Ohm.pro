@@ -48,8 +48,6 @@ OTHER_FILES += \
     qml/pages/MainPage.qml \
     qml/pages/resistorcolor.qml \
     qml/pages/About.qml \
-    ../ress/resistor.png \
-    ../resistor.png \
     qml/pages/smdresistorcalc.qml \
     qml/pages/capacitorcodes.qml \
     qml/img/capacitor.png \
@@ -60,6 +58,9 @@ OTHER_FILES += \
     qml/img/spiral.png \
     qml/img/resistor_6rings.png \
     qml/pages/induction.qml \
+    qml/pages/s-video.qml \
+    qml/pages/ps2.qml \
+    qml/img/resistor.png \
     qml/img/resistor_big_6rings.png \
     qml/img/resistor_big_5rings.png \
     qml/img/resistor_big_4rings.png \
@@ -79,8 +80,9 @@ OTHER_FILES += \
     qml/img/seriell_male.png \
     qml/img/seriell_icon.png \
     qml/img/serial_female.png \
+    qml/img/s-video.png \
+    qml/img/ps2.png \
     qml/harbour-ohm.qml \
-    harbour-ohm.png \
     harbour-ohm.desktop \
     translations/*.ts \
     rpm/harbour-ohm.spec

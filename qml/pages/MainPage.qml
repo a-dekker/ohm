@@ -88,6 +88,18 @@ Page {
                 section: "Connector Pin Assignments"
                 icon: "../img/rj45-icon.png"
             }
+            ListElement {
+                page: "s-video.qml"
+                title: qsTr("S-Video")
+                section: "Connector Pin Assignments"
+                icon: "../img/s-video.png"
+            }
+            ListElement {
+                page: "ps2.qml"
+                title: qsTr("PS/2")
+                section: "Connector Pin Assignments"
+                icon: "../img/ps2.png"
+            }
         }
     }
 

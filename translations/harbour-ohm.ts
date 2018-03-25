@@ -87,7 +87,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="111"/>
+        <location filename="../qml/pages/MainPage.qml" line="93"/>
+        <source>S-Video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="99"/>
+        <source>PS/2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="123"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
@@ -715,12 +725,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/db25_pins.qml" line="284"/>
+        <location filename="../qml/pages/db25_pins.qml" line="283"/>
         <source>Serial/RS232</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/db25_pins.qml" line="354"/>
+        <location filename="../qml/pages/db25_pins.qml" line="353"/>
         <source>Parallel</source>
         <translation type="unfinished"></translation>
     </message>
@@ -858,6 +868,25 @@
     </message>
 </context>
 <context>
+    <name>ps2</name>
+    <message>
+        <location filename="../qml/pages/ps2.qml" line="54"/>
+        <source>PS/2 pin assignments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ps2.qml" line="63"/>
+        <source>PS/2 female</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ps2.qml" line="78"/>
+        <source>Purple for keyboard/Green for Mouse
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>resistorcolor</name>
     <message>
         <location filename="../qml/pages/resistorcolor.qml" line="27"/>
@@ -900,6 +929,29 @@
     <message>
         <location filename="../qml/pages/rj45_pins.qml" line="90"/>
         <source>Ethernet female</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>s-video</name>
+    <message>
+        <location filename="../qml/pages/s-video.qml" line="89"/>
+        <source>S-Video pin assignments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/s-video.qml" line="98"/>
+        <source>S-Video female</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/s-video.qml" line="137"/>
+        <source>4 pins</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/s-video.qml" line="205"/>
+        <source>7 pins</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
