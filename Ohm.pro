@@ -76,11 +76,14 @@ OTHER_FILES += \
     qml/pages/db25_pins.qml \
     qml/pages/dipswitch.qml \
     qml/pages/serial_pins.qml \
+    qml/pages/midi.qml \
     qml/img/usb_icon.png \
     qml/img/seriell_male.png \
     qml/img/seriell_icon.png \
     qml/img/serial_female.png \
     qml/img/s-video.png \
+    qml/img/midi_male.png \
+    qml/img/midi_female.png \
     qml/img/ps2.png \
     qml/harbour-ohm.qml \
     harbour-ohm.desktop \

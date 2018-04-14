@@ -100,6 +100,12 @@ Page {
                 section: "Connector Pin Assignments"
                 icon: "../img/ps2.png"
             }
+            ListElement {
+                page: "midi.qml"
+                title: qsTr("MIDI")
+                section: "Connector Pin Assignments"
+                icon: "../img/midi_male.png"
+            }
         }
     }
 

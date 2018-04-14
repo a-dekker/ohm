@@ -10,39 +10,33 @@ Page {
 
         ListElement {
             pin: "PIN 1"
-            col: ""
-            title: "+DATA"
-            description: "Data"
+            col: "-"
+            title: "N/C"
+            description: "Not connected"
         }
         ListElement {
             pin: "PIN 2"
-            col: ""
-            title: "-"
-            description: "Not connected"
+            col: "-"
+            title: "GROUND"
+            description: "Shield"
         }
         ListElement {
             pin: "PIN 3"
-            col: ""
-            title: "GND"
-            description: "Ground"
+            col: "-"
+            title: "N/C"
+            description: "Not connected"
         }
         ListElement {
             pin: "PIN 4"
-            col: ""
-            title: "Vcc"
-            description: "+5 V DC at 275 mA"
+            col: "-"
+            title: "CSINK"
+            description: "Current Sink"
         }
         ListElement {
             pin: "PIN 5"
-            col: ""
-            title: "+CLK"
-            description: "Clock"
-        }
-        ListElement {
-            pin: "PIN 6"
-            col: ""
-            title: "-"
-            description: "Not connected"
+            col: "-"
+            title: "CSRC"
+            description: "Current Source"
         }
     }
 
@@ -51,7 +45,7 @@ Page {
         contentHeight: column.height + pagehead.height + list.height
         PageHeader {
             id: pagehead
-            title: qsTr("PS/2 pin assignments")
+            title: qsTr("MIDI Out pin assignments")
         }
 
         Column {
@@ -60,7 +54,7 @@ Page {
                 top: pagehead.bottom
             }
             SectionHeader {
-                text: qsTr("PS/2 female")
+                text: qsTr("MIDI male")
             }
             Image {
                 id: img1
@@ -70,12 +64,29 @@ Page {
                     bottomMargin: Theme.paddingSmall / 4
                 }
                 fillMode: Image.PreserveAspectFit
-                source: "../img/ps2.png"
+                source: "../img/midi_male.png"
                 width: 350 * resScale
                 height: 200 * resScale
             }
+
+            SectionHeader {
+                text: qsTr("MIDI female")
+            }
+            Image {
+                id: img2
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                    topMargin: Theme.paddingSmall / 4
+                    bottomMargin: Theme.paddingSmall / 4
+                }
+                fillMode: Image.PreserveAspectFit
+                source: "../img/midi_female.png"
+                width: 250 * resScale
+                height: 200 * resScale
+            }
+
             Label {
-                text: qsTr("Purple for keyboard/Green for mouse\n")
+                text: qsTr("Musical Instrument Digital Interface\n")
                 font.pixelSize: mainapp.largeScreen ? Theme.fontSizeMedium : Theme.fontSizeSmall
                 anchors.horizontalCenter: parent.horizontalCenter
                 wrapMode: Text.Wrap

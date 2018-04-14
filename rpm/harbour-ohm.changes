@@ -8,6 +8,8 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Sat Apr 14 2018 Arno Dekker <jack.tar@example.com> 1.2-7
+- Added MIDI pin layout
 * Sun Mar 25 2018 Arno Dekker <jack.tar@example.com> 1.2-6
 - Added S-Video and PS/2 pin layout
 * Mon Mar 19 2018 Arno Dekker <jack.tar@example.com> 1.2-5

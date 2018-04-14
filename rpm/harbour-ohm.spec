@@ -14,7 +14,7 @@ Name:       harbour-ohm
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Helper tool for electronic parts
 Version:    1.2
-Release:    6
+Release:    7
 Group:      Qt/Qt
 License:    LICENSE
 URL:        https://github.com/a-dekker/ohm

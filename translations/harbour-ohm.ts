@@ -97,7 +97,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="123"/>
+        <location filename="../qml/pages/MainPage.qml" line="105"/>
+        <source>MIDI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="129"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
@@ -820,6 +825,30 @@
     </message>
 </context>
 <context>
+    <name>midi</name>
+    <message>
+        <location filename="../qml/pages/midi.qml" line="48"/>
+        <source>MIDI Out pin assignments</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/midi.qml" line="57"/>
+        <source>MIDI male</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/midi.qml" line="73"/>
+        <source>MIDI female</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/midi.qml" line="89"/>
+        <source>Musical Instrument Digital Interface
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ohmslaw</name>
     <message>
         <location filename="../qml/pages/ohmslaw.qml" line="73"/>
@@ -881,7 +910,7 @@
     </message>
     <message>
         <location filename="../qml/pages/ps2.qml" line="78"/>
-        <source>Purple for keyboard/Green for Mouse
+        <source>Purple for keyboard/Green for mouse
 </source>
         <translation type="unfinished"></translation>
     </message>
