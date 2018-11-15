@@ -110,17 +110,17 @@
 <context>
     <name>capacitorcodes</name>
     <message>
-        <location filename="../qml/pages/capacitorcodes.qml" line="159"/>
+        <location filename="../qml/pages/capacitorcodes.qml" line="175"/>
         <source>Value</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/capacitorcodes.qml" line="172"/>
+        <location filename="../qml/pages/capacitorcodes.qml" line="188"/>
         <source>Capacitor Code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/capacitorcodes.qml" line="173"/>
+        <location filename="../qml/pages/capacitorcodes.qml" line="189"/>
         <source>Type Code here</source>
         <translation type="unfinished"></translation>
     </message>
@@ -133,37 +133,37 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/coil.qml" line="118"/>
+        <location filename="../qml/pages/coil.qml" line="134"/>
         <source>Medium diameter (meter)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/coil.qml" line="127"/>
+        <location filename="../qml/pages/coil.qml" line="143"/>
         <source>Length (meter)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/coil.qml" line="129"/>
+        <location filename="../qml/pages/coil.qml" line="145"/>
         <source>l/m</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/coil.qml" line="136"/>
+        <location filename="../qml/pages/coil.qml" line="152"/>
         <source>Number of windings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/coil.qml" line="145"/>
+        <location filename="../qml/pages/coil.qml" line="161"/>
         <source>Inductance (Henry)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/coil.qml" line="153"/>
+        <location filename="../qml/pages/coil.qml" line="169"/>
         <source>Calculate!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/coil.qml" line="159"/>
+        <location filename="../qml/pages/coil.qml" line="175"/>
         <source>Enter any three values and click the button to calculate the fourth. You can use SI prefixes like k, M, G, m, u, etc. by typing them as the last letter.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -725,17 +725,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/db25_pins.qml" line="257"/>
+        <location filename="../qml/pages/db25_pins.qml" line="273"/>
         <source>Female</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/db25_pins.qml" line="283"/>
+        <location filename="../qml/pages/db25_pins.qml" line="315"/>
         <source>Serial/RS232</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/db25_pins.qml" line="353"/>
+        <location filename="../qml/pages/db25_pins.qml" line="385"/>
         <source>Parallel</source>
         <translation type="unfinished"></translation>
     </message>
@@ -753,17 +753,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/dipswitch.qml" line="186"/>
+        <location filename="../qml/pages/dipswitch.qml" line="346"/>
         <source>Value</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/dipswitch.qml" line="192"/>
+        <location filename="../qml/pages/dipswitch.qml" line="352"/>
         <source>Enter value (max 511)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/dipswitch.qml" line="206"/>
+        <location filename="../qml/pages/dipswitch.qml" line="366"/>
         <source>Enter your value</source>
         <translation type="unfinished"></translation>
     </message>
@@ -776,7 +776,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/induction.qml" line="110"/>
+        <location filename="../qml/pages/induction.qml" line="126"/>
         <source> H</source>
         <translation type="unfinished"></translation>
     </message>
@@ -784,42 +784,42 @@
 <context>
     <name>lcresonator</name>
     <message>
-        <location filename="../qml/pages/lcresonator.qml" line="90"/>
+        <location filename="../qml/pages/lcresonator.qml" line="106"/>
         <source>Inductance (Henry)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/lcresonator.qml" line="92"/>
+        <location filename="../qml/pages/lcresonator.qml" line="108"/>
         <source>L/H</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/lcresonator.qml" line="99"/>
+        <location filename="../qml/pages/lcresonator.qml" line="115"/>
         <source>Capacity (Farad)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/lcresonator.qml" line="101"/>
+        <location filename="../qml/pages/lcresonator.qml" line="117"/>
         <source>C/F</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/lcresonator.qml" line="108"/>
+        <location filename="../qml/pages/lcresonator.qml" line="124"/>
         <source>Frequency (Hertz)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/lcresonator.qml" line="110"/>
+        <location filename="../qml/pages/lcresonator.qml" line="126"/>
         <source>f/Hz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/lcresonator.qml" line="116"/>
+        <location filename="../qml/pages/lcresonator.qml" line="132"/>
         <source>Calculate!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/lcresonator.qml" line="122"/>
+        <location filename="../qml/pages/lcresonator.qml" line="138"/>
         <source>Enter any two values and click the button to calculate the third. You can use SI prefixes like k, M, G, m, u, etc. by typing them as the last letter.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -837,12 +837,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/midi.qml" line="73"/>
+        <location filename="../qml/pages/midi.qml" line="89"/>
         <source>MIDI female</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/midi.qml" line="89"/>
+        <location filename="../qml/pages/midi.qml" line="121"/>
         <source>Musical Instrument Digital Interface
 </source>
         <translation type="unfinished"></translation>
@@ -856,42 +856,42 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ohmslaw.qml" line="91"/>
+        <location filename="../qml/pages/ohmslaw.qml" line="107"/>
         <source>Voltage (Volt)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ohmslaw.qml" line="93"/>
+        <location filename="../qml/pages/ohmslaw.qml" line="109"/>
         <source>U/V</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ohmslaw.qml" line="100"/>
+        <location filename="../qml/pages/ohmslaw.qml" line="116"/>
         <source>Current (Ampere)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ohmslaw.qml" line="102"/>
+        <location filename="../qml/pages/ohmslaw.qml" line="118"/>
         <source>I/A</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ohmslaw.qml" line="109"/>
+        <location filename="../qml/pages/ohmslaw.qml" line="125"/>
         <source>Resistance (Ohm)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ohmslaw.qml" line="111"/>
+        <location filename="../qml/pages/ohmslaw.qml" line="127"/>
         <source>R/Ω</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ohmslaw.qml" line="117"/>
+        <location filename="../qml/pages/ohmslaw.qml" line="133"/>
         <source>Calculate!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ohmslaw.qml" line="123"/>
+        <location filename="../qml/pages/ohmslaw.qml" line="139"/>
         <source>Enter any two values and click the button to calculate the third. You can use SI prefixes like k, M, G, m, u, etc. by typing them as the last letter.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -909,7 +909,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ps2.qml" line="78"/>
+        <location filename="../qml/pages/ps2.qml" line="94"/>
         <source>Purple for keyboard/Green for mouse
 </source>
         <translation type="unfinished"></translation>
@@ -923,22 +923,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/resistorcolor.qml" line="821"/>
+        <location filename="../qml/pages/resistorcolor.qml" line="837"/>
         <source>Use 3 Rings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/resistorcolor.qml" line="825"/>
+        <location filename="../qml/pages/resistorcolor.qml" line="841"/>
         <source>Use 4 Rings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/resistorcolor.qml" line="829"/>
+        <location filename="../qml/pages/resistorcolor.qml" line="845"/>
         <source>Use 5 Rings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/resistorcolor.qml" line="833"/>
+        <location filename="../qml/pages/resistorcolor.qml" line="849"/>
         <source>Use 6 Rings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -956,7 +956,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/rj45_pins.qml" line="90"/>
+        <location filename="../qml/pages/rj45_pins.qml" line="106"/>
         <source>Ethernet female</source>
         <translation type="unfinished"></translation>
     </message>
@@ -974,12 +974,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/s-video.qml" line="137"/>
+        <location filename="../qml/pages/s-video.qml" line="169"/>
         <source>4 pins</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/s-video.qml" line="205"/>
+        <location filename="../qml/pages/s-video.qml" line="237"/>
         <source>7 pins</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1141,7 +1141,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/serial_pins.qml" line="96"/>
+        <location filename="../qml/pages/serial_pins.qml" line="112"/>
         <source>Serial/RS232 female</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1154,17 +1154,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/smdresistorcalc.qml" line="177"/>
+        <location filename="../qml/pages/smdresistorcalc.qml" line="193"/>
         <source>Value</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/smdresistorcalc.qml" line="190"/>
+        <location filename="../qml/pages/smdresistorcalc.qml" line="206"/>
         <source>Resistor Code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/smdresistorcalc.qml" line="191"/>
+        <location filename="../qml/pages/smdresistorcalc.qml" line="207"/>
         <source>Type Code here</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1495,7 +1495,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/vga_pins.qml" line="134"/>
+        <location filename="../qml/pages/vga_pins.qml" line="150"/>
         <source>Female (DE-15/HD-15)</source>
         <translation type="unfinished"></translation>
     </message>

@@ -21,4 +21,7 @@ Fork of https://github.com/thesignal/ohm
 - DB-9
 - DB-25
 - RJ-45
+- S-Video
+- PS/2
+- MIDI
 - ...
