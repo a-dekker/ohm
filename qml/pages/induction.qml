@@ -87,7 +87,14 @@ Page {
                     bottomMargin: Theme.paddingSmall / 4
                 }
                 fillMode: Image.PreserveAspectFit
-                source: "../img/resistor_4rings.png"
+                source: {
+                    if (mainapp.isLightTheme) {
+                        var rev_color = "_rev"
+                    } else {
+                        var rev_color = ""
+                    }
+                    return "../img/resistor_4rings" + rev_color + ".png"
+                }
                 width: 100 * resScale
                 height: 100 * resScale
                 z : 1
@@ -101,24 +108,7 @@ Page {
                         z : 100
                     }
                 }
-                layer.effect: ShaderEffect {
-                    property color color: Theme.primaryColor
-
-                    fragmentShader: "
-                    varying mediump vec2 qt_TexCoord0;
-                    uniform highp float qt_Opacity;
-                    uniform lowp sampler2D source;
-                    uniform highp vec4 color;
-                    void main() {
-                        highp vec4 pixelColor = texture2D(source, qt_TexCoord0);
-                        gl_FragColor = vec4(mix(pixelColor.rgb/max(pixelColor.a, 0.00390625), color.rgb/max(color.a, 0.00390625), color.a) * pixelColor.a, pixelColor.a) * qt_Opacity;
-                    }
-                    "
-                }
-                layer.enabled: true
-                layer.samplerName: "source"
             }
-
 
             // insert graphic here
             Label {

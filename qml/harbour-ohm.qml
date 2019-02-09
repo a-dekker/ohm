@@ -40,6 +40,10 @@ ApplicationWindow
     property bool mediumScreen: Screen.width >= 1080 && Screen.width < 1536
     property bool smallScreen: Screen.width < 1080
     property MainPage mainPageRef: null
+    property bool isLightTheme: {
+        if (Theme.colorScheme == Theme.LightOnDark) return false
+        else return true
+    }
 
     initialPage: mainPageContainer
 

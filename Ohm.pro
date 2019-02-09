@@ -65,6 +65,11 @@ OTHER_FILES += \
     qml/img/resistor_big_5rings.png \
     qml/img/resistor_big_4rings.png \
     qml/img/resistor_big_3rings.png \
+    qml/img/resistor_rev.png \
+    qml/img/resistor_big_6rings_rev.png \
+    qml/img/resistor_big_5rings_rev.png \
+    qml/img/resistor_big_4rings_rev.png \
+    qml/img/resistor_big_3rings_rev.png \
     qml/img/bigsmd_empty.png \
     qml/img/vga_male.png \
     qml/img/vga_icon.png \

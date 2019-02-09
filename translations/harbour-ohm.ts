@@ -776,7 +776,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/induction.qml" line="126"/>
+        <location filename="../qml/pages/induction.qml" line="116"/>
         <source> H</source>
         <translation type="unfinished"></translation>
     </message>
@@ -923,22 +923,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/resistorcolor.qml" line="837"/>
+        <location filename="../qml/pages/resistorcolor.qml" line="825"/>
         <source>Use 3 Rings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/resistorcolor.qml" line="841"/>
+        <location filename="../qml/pages/resistorcolor.qml" line="829"/>
         <source>Use 4 Rings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/resistorcolor.qml" line="845"/>
+        <location filename="../qml/pages/resistorcolor.qml" line="833"/>
         <source>Use 5 Rings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/resistorcolor.qml" line="849"/>
+        <location filename="../qml/pages/resistorcolor.qml" line="837"/>
         <source>Use 6 Rings</source>
         <translation type="unfinished"></translation>
     </message>

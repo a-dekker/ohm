@@ -93,14 +93,19 @@ Page {
                 }
                 fillMode: Image.PreserveAspectFit
                 source: {
+                    if (mainapp.isLightTheme) {
+                        var rev_color = "_rev"
+                    } else {
+                        var rev_color = ""
+                    }
                     if (column.rings === 3) {
-                        return "../img/resistor_big_3rings.png"
+                       return "../img/resistor_big_3rings" + rev_color + ".png"
                     } else if (column.rings === 4) {
-                        return "../img/resistor_big_4rings.png"
+                        return "../img/resistor_big_4rings" + rev_color + ".png"
                     } else if (column.rings === 5) {
-                        return "../img/resistor_big_5rings.png"
+                        return "../img/resistor_big_5rings" + rev_color + ".png"
                     } else if (column.rings === 6) {
-                        return "../img/resistor_big_6rings.png"
+                        return "../img/resistor_big_6rings" + rev_color + ".png"
                     }
                 }
 
@@ -117,24 +122,7 @@ Page {
                         z : 100 * resScale
                     }
                 }
-                layer.effect: ShaderEffect {
-                    property color color: Theme.primaryColor
-
-                    fragmentShader: "
-                    varying mediump vec2 qt_TexCoord0;
-                    uniform highp float qt_Opacity;
-                    uniform lowp sampler2D source;
-                    uniform highp vec4 color;
-                    void main() {
-                        highp vec4 pixelColor = texture2D(source, qt_TexCoord0);
-                        gl_FragColor = vec4(mix(pixelColor.rgb/max(pixelColor.a, 0.00390625), color.rgb/max(color.a, 0.00390625), color.a) * pixelColor.a, pixelColor.a) * qt_Opacity;
-                    }
-                    "
-                }
-                layer.enabled: true
-                layer.samplerName: "source"
             }
-
 
             // insert graphic here
             Label {
