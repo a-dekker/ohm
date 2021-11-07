@@ -5,3 +5,7 @@ Name=Ohm
 Icon=harbour-ohm
 Exec=harbour-ohm
 
+[X-Sailjail]
+OrganizationName=org.thesignal
+ApplicationName=ohm
+Permissions=
