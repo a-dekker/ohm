@@ -7,20 +7,26 @@ Page {
     property int resScale: mainapp.smallScreen ? 1 : mainapp.mediumScreen ? 2 : 2
 
     SilicaFlickable {
-        contentHeight: column.height
         anchors.fill: parent
+        contentHeight: column.height
+        contentWidth: page.width
         //Component.onCompleted: ResistorColor.createRows(column.rings,row1)
         VerticalScrollDecorator {}
         Column {
             id: column
+            width: page.width
             spacing: Theme.paddingSmall
+
             property real dotspace: resScale === 1 ? Theme.itemSizeSmall / 2.2 : Theme.itemSizeSmall / 2.2 * ( resScale * 0.7)
             property bool defaultdimm: false
             property double calcohm: 0
             property real rings: 4 /* default value for resistor rings */
             property string ohmvalue : " Ω"
-            anchors {
-                topMargin: Theme.paddingSmall
+            property int maxDotWidth: {
+                if (isPortrait)
+                    return Math.min(Screen.width, Screen.height) / Math.max(4, rings)
+                else
+                    return Math.min(Screen.width, Screen.height) / 4
             }
 
             PageHeader {
@@ -142,6 +148,11 @@ Page {
                 width: page.width
                 anchors.horizontalCenter: parent.horizontalCenter
                 horizontalAlignment: Qt.AlignHCenter
+            }
+
+            Item {
+                width: 1
+                height: Theme.paddingMedium
             }
 
             function updateRow1(row) {
@@ -530,12 +541,10 @@ Page {
                 ohmlabel.text = column.calcohm + column.ohmvalue;
             }
 
-
             Row { /* row 1, Black Colorvalue */
                 id : row0
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width
                 Repeater { /* repeater black GlassItem */
                     id : rep00
                     model : column.rings
@@ -544,12 +553,16 @@ Page {
                         color : "#000000"
                         cache: false
                         dimmed : column.defaultdimm
-                        width: row0.width / column.rings
+                        width: column.maxDotWidth
+                        anchors.verticalCenter: parent.verticalCenter
                         MouseArea {
                             id : buttonMouseArea00
-                            anchors.fill : parent
+                            width: parent.width
+                            height: column.dotspace + column.spacing
+                            anchors.verticalCenter: parent.verticalCenter
                             onClicked: column.clickhandler(color,index,rep00)
                         }
+
                     }
                     //Component.onCompleted: column.updateRow1(rep00)
                 }
@@ -559,18 +572,20 @@ Page {
                 id : row1
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width
                 Repeater {
                     id : rep10
-                    model : (column.rings)
+                    model : column.rings
                     GlassItem {
                         color : "#854928" /* brown */
                         cache: false
                         dimmed : column.defaultdimm
-                        width: row1.width / column.rings
+                        width: column.maxDotWidth
+                        anchors.verticalCenter: parent.verticalCenter
                         MouseArea {
                             id : buttonMouseArea10
-                            anchors.fill : parent
+                            width: parent.width
+                            height: column.dotspace + column.spacing
+                            anchors.verticalCenter: parent.verticalCenter
                             onClicked: column.clickhandler(color,index,rep10)
                         }
                     }
@@ -580,7 +595,6 @@ Page {
                 id : row2
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width
                 Repeater {
                     id : rep20
                     model : (column.rings)
@@ -588,10 +602,13 @@ Page {
                         color : "#ff0000"
                         cache: false
                         dimmed : column.defaultdimm
-                        width: row2.width / column.rings
+                        width: column.maxDotWidth
+                        anchors.verticalCenter: parent.verticalCenter
                         MouseArea {
                             id : buttonMouseArea20
-                            anchors.fill : parent
+                            width: parent.width
+                            height: column.dotspace + column.spacing
+                            anchors.verticalCenter: parent.verticalCenter
                             onClicked: column.clickhandler(color,index,rep20)
                         }
                     }
@@ -601,7 +618,6 @@ Page {
                 id : row3
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width
                 Repeater { /* repeater orange */
                     id : rep30
                     model : column.rings
@@ -612,10 +628,13 @@ Page {
                         color : "#ff9900" /* orange*/
                         cache: false
                         dimmed : column.defaultdimm
-                        width: row3.width / column.rings
+                        width: column.maxDotWidth
+                        anchors.verticalCenter: parent.verticalCenter
                         MouseArea {
                             id : buttonMouseArea30
-                            anchors.fill : parent
+                            width: parent.width
+                            height: column.dotspace + column.spacing
+                            anchors.verticalCenter: parent.verticalCenter
                             onClicked: column.clickhandler(color,index,rep30)
                         }
                     }
@@ -625,7 +644,6 @@ Page {
                 id : row4
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width
                 Repeater { /* repeater, yellow */
                     id : rep40
                     model : (column.rings)
@@ -635,10 +653,13 @@ Page {
                         color : "#ffff00"
                         cache: false
                         dimmed : column.defaultdimm
-                        width: row4.width / column.rings
+                        width: column.maxDotWidth
+                        anchors.verticalCenter: parent.verticalCenter
                         MouseArea {
                             id : buttonMouseArea40
-                            anchors.fill : parent
+                            width: parent.width
+                            height: column.dotspace + column.spacing
+                            anchors.verticalCenter: parent.verticalCenter
                             onClicked: column.clickhandler(color,index,rep40)
                         }
                     }
@@ -648,7 +669,6 @@ Page {
                 id : row5
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width
                 Repeater { /* repeater green */
                     id : rep50
                     model : (column.rings)
@@ -656,10 +676,13 @@ Page {
                         color : "#008000"
                         cache: false
                         dimmed : column.defaultdimm
-                        width: row5.width / column.rings
+                        width: column.maxDotWidth
+                        anchors.verticalCenter: parent.verticalCenter
                         MouseArea {
                             id : buttonMouseArea50
-                            anchors.fill : parent
+                            width: parent.width
+                            height: column.dotspace + column.spacing
+                            anchors.verticalCenter: parent.verticalCenter
                             onClicked: column.clickhandler(color,index,rep50)
                         }
                     }
@@ -669,7 +692,6 @@ Page {
                 id : row6
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width
                 Repeater { /* repeater, blue */
                     id : rep60
                     model : (column.rings)
@@ -677,10 +699,13 @@ Page {
                         color : "#0000ff"
                         cache: false
                         dimmed : column.defaultdimm
-                        width: row6.width / column.rings
+                        width: column.maxDotWidth
+                        anchors.verticalCenter: parent.verticalCenter
                         MouseArea {
                             id : buttonMouseArea60
-                            anchors.fill : parent
+                            width: parent.width
+                            height: column.dotspace + column.spacing
+                            anchors.verticalCenter: parent.verticalCenter
                             onClicked: column.clickhandler(color,index,rep60)
                         }
                     }
@@ -690,7 +715,6 @@ Page {
                 id : row7
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width
                 Repeater { /* repeater, violet */
                     id :rep70
                     model : (column.rings)
@@ -698,10 +722,13 @@ Page {
                         color : "#ee82ee"
                         cache: false
                         dimmed : column.defaultdimm
-                        width: row7.width / column.rings
+                        width: column.maxDotWidth
+                        anchors.verticalCenter: parent.verticalCenter
                         MouseArea {
                             id : buttonMouseArea70
-                            anchors.fill : parent
+                            width: parent.width
+                            height: column.dotspace + column.spacing
+                            anchors.verticalCenter: parent.verticalCenter
                             onClicked: column.clickhandler(color,index,rep70)
                         }
                     }
@@ -711,7 +738,6 @@ Page {
                 id : row8
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width
                 Repeater { /* repeater, grey */
                     id : rep80
                     model : (column.rings)
@@ -719,10 +745,13 @@ Page {
                         color : "#808080"
                         cache: false
                         dimmed : column.defaultdimm
-                        width: row8.width / column.rings
+                        width: column.maxDotWidth
+                        anchors.verticalCenter: parent.verticalCenter
                         MouseArea {
                             id : buttonMouseArea80
-                            anchors.fill : parent
+                            width: parent.width
+                            height: column.dotspace + column.spacing
+                            anchors.verticalCenter: parent.verticalCenter
                             onClicked: column.clickhandler(color,index,rep80)
                         }
                     }
@@ -732,7 +761,6 @@ Page {
                 id : row9
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width
                 Repeater { /* repeater, white */
                     id : rep90
                     model : (column.rings)
@@ -742,10 +770,13 @@ Page {
                         color : "#ffffff"
                         cache: false
                         dimmed : column.defaultdimm
-                        width: row9.width / column.rings
+                        width: column.maxDotWidth
+                        anchors.verticalCenter: parent.verticalCenter
                         MouseArea {
                             id : buttonMouseArea90
-                            anchors.fill : parent
+                            width: parent.width
+                            height: column.dotspace + column.spacing
+                            anchors.verticalCenter: parent.verticalCenter
                             onClicked: column.clickhandler(color,index,rep90)
                         }
                     }
@@ -755,7 +786,6 @@ Page {
                 id : row10
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width
                 Repeater { /* repeater, gold */
                     id : rep100
                     model : (column.rings)
@@ -765,10 +795,13 @@ Page {
                         color : "#ffd700"
                         cache: false
                         dimmed : column.defaultdimm
-                        width: row10.width / column.rings
+                        width: column.maxDotWidth
+                        anchors.verticalCenter: parent.verticalCenter
                         MouseArea {
                             id : buttonMouseArea100
-                            anchors.fill : parent
+                            width: parent.width
+                            height: column.dotspace + column.spacing
+                            anchors.verticalCenter: parent.verticalCenter
                             onClicked: column.clickhandler(color,index,rep100)
                         }
                     }
@@ -778,7 +811,6 @@ Page {
                 id : row11
                 height: column.dotspace
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width
                 Repeater { /* repeater, silver */
                     id : rep110
                     model : (column.rings)
@@ -788,16 +820,24 @@ Page {
                         color : "#c0c0c0"
                         cache: false
                         dimmed : column.defaultdimm
-                        width: row11.width / column.rings
+                        width: column.maxDotWidth
+                        anchors.verticalCenter: parent.verticalCenter
                         MouseArea {
                             id : buttonMouseArea110
-                            anchors.fill : parent
+                            width: parent.width
+                            height: column.dotspace + column.spacing
+                            anchors.verticalCenter: parent.verticalCenter
                             onClicked: column.clickhandler(color,index,rep110)
                         }
                     }
-
                 }
             }
+
+            Item {
+                width: 1
+                height: Theme.paddingLarge
+            }
+
 
             //            Slider {
             //                id: userSlider

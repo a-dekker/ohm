@@ -1,5 +1,6 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import "components/"
 
 Page {
     id: page
@@ -42,7 +43,7 @@ Page {
 
     SilicaFlickable {
         anchors.fill: parent
-        contentHeight: column.height + pagehead.height + list.height
+        contentHeight: column.height + pagehead.height
         PageHeader {
             id: pagehead
             title: qsTr("MIDI Out pin assignments")
@@ -50,13 +51,14 @@ Page {
 
         Column {
             id: column
+            width: page.width
             anchors {
                 top: pagehead.bottom
             }
             SectionHeader {
                 text: qsTr("MIDI male")
             }
-            Image {
+            HighlightImage {
                 id: img1
                 anchors {
                     horizontalCenter: parent.horizontalCenter
@@ -65,30 +67,15 @@ Page {
                 }
                 fillMode: Image.PreserveAspectFit
                 source: "../img/midi_male.png"
+                color: Theme.primaryColor
                 width: 350 * resScale
                 height: 200 * resScale
-                layer.effect: ShaderEffect {
-                    property color color: Theme.primaryColor
-
-                    fragmentShader: "
-                    varying mediump vec2 qt_TexCoord0;
-                    uniform highp float qt_Opacity;
-                    uniform lowp sampler2D source;
-                    uniform highp vec4 color;
-                    void main() {
-                        highp vec4 pixelColor = texture2D(source, qt_TexCoord0);
-                        gl_FragColor = vec4(mix(pixelColor.rgb/max(pixelColor.a, 0.00390625), color.rgb/max(color.a, 0.00390625), color.a) * pixelColor.a, pixelColor.a) * qt_Opacity;
-                    }
-                    "
-                }
-                layer.enabled: true
-                layer.samplerName: "source"
             }
 
             SectionHeader {
                 text: qsTr("MIDI female")
             }
-            Image {
+            HighlightImage {
                 id: img2
                 anchors {
                     horizontalCenter: parent.horizontalCenter
@@ -97,24 +84,9 @@ Page {
                 }
                 fillMode: Image.PreserveAspectFit
                 source: "../img/midi_female.png"
+                color: Theme.primaryColor
                 width: 250 * resScale
                 height: 200 * resScale
-                layer.effect: ShaderEffect {
-                    property color color: Theme.primaryColor
-
-                    fragmentShader: "
-                    varying mediump vec2 qt_TexCoord0;
-                    uniform highp float qt_Opacity;
-                    uniform lowp sampler2D source;
-                    uniform highp vec4 color;
-                    void main() {
-                        highp vec4 pixelColor = texture2D(source, qt_TexCoord0);
-                        gl_FragColor = vec4(mix(pixelColor.rgb/max(pixelColor.a, 0.00390625), color.rgb/max(color.a, 0.00390625), color.a) * pixelColor.a, pixelColor.a) * qt_Opacity;
-                    }
-                    "
-                }
-                layer.enabled: true
-                layer.samplerName: "source"
             }
 
             Label {
@@ -136,68 +108,8 @@ Page {
             VerticalScrollDecorator {
             }
 
-            Repeater {
-                id: list
+            PinsDetails {
                 model: pagesModel
-                anchors.bottomMargin: Theme.paddingLarge
-
-                ComboBox {
-                    id: combx
-                    width: parent.width
-                    currentIndex: -1
-                    menu: ContextMenu {
-                        MenuItem {
-                            Label {
-                                text: pagesModel.get(index).description
-                                font.pixelSize: Theme.fontSizeExtraSmall / 1.5 * resScale
-                                color: Theme.primaryColor
-                                anchors {
-                                    verticalCenter: parent.verticalCenter
-                                    horizontalCenter: parent.horizontalCenter
-                                }
-                            }
-                            onClicked: combx.currentIndex = -1
-                        }
-                    }
-                    Label {
-                        anchors {
-                            left: parent.horizontalCenter
-                            leftMargin: Theme.paddingLarge
-                            rightMargin: Theme.paddingLarge
-                            verticalCenter: parent.verticalCenter
-                        }
-                        height: Theme.itemSizeSmall / 1.5
-                        text: model.title
-                        font.pixelSize: Theme.fontSizeExtraSmall
-                        color: Theme.primaryColor
-                    }
-                    Label {
-                        id: co
-                        anchors {
-                            left: pin.right
-                            leftMargin: Theme.paddingLarge * 2
-                            rightMargin: Theme.paddingLarge * 2
-                            verticalCenter: parent.verticalCenter
-                        }
-                        height: Theme.itemSizeSmall / 1.5
-                        text: model.col
-                        font.pixelSize: Theme.fontSizeExtraSmall
-                        color: Theme.primaryColor
-                    }
-                    Label {
-                        id: pin
-                        anchors {
-                            left: parent.left
-                            leftMargin: Theme.paddingLarge
-                            rightMargin: Theme.paddingLarge
-                            verticalCenter: parent.verticalCenter
-                        }
-                        height: Theme.itemSizeSmall / 1.5
-                        text: model.pin
-                        font.pixelSize: Theme.fontSizeExtraSmall
-                        color: Theme.primaryColor
-                    }
-                }
             }
         }
     }

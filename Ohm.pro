@@ -53,6 +53,20 @@ OTHER_FILES += \
     qml/pages/About.qml \
     qml/pages/smdresistorcalc.qml \
     qml/pages/capacitorcodes.qml \
+    qml/pages/usb_pins.qml \
+    qml/pages/micro_usb_pins.qml \
+    qml/pages/induction.qml \
+    qml/pages/s-video.qml \
+    qml/pages/ps2.qml \
+    qml/pages/vga_pins.qml \
+    qml/pages/usb_pins.qml \
+    qml/pages/db25_pins.qml \
+    qml/pages/rj45_pins.qml \
+    qml/pages/dipswitch.qml \
+    qml/pages/serial_pins.qml \
+    qml/pages/midi.qml \
+    qml/pages/components/PinsDetails.qml \
+    qml/harbour-ohm.qml \
     qml/img/capacitor.png \
     qml/img/logo_ohm.png \
     qml/img/induct.png \
@@ -60,9 +74,6 @@ OTHER_FILES += \
     qml/img/smdresistor.png \
     qml/img/spiral.png \
     qml/img/resistor_6rings.png \
-    qml/pages/induction.qml \
-    qml/pages/s-video.qml \
-    qml/pages/ps2.qml \
     qml/img/resistor.png \
     qml/img/resistor_big_6rings.png \
     qml/img/resistor_big_5rings.png \
@@ -77,14 +88,10 @@ OTHER_FILES += \
     qml/img/vga_male.png \
     qml/img/vga_icon.png \
     qml/img/vga_female.png \
-    qml/pages/vga_pins.qml \
-    qml/img/usb_norm.png \
-    qml/img/usb_mini.png \
-    qml/pages/usb_pins.qml \
-    qml/pages/db25_pins.qml \
-    qml/pages/dipswitch.qml \
-    qml/pages/serial_pins.qml \
-    qml/pages/midi.qml \
+    qml/img/usb_A_receptacle.png \
+    qml/img/usb_A_plug.png \
+    qml/img/usb_B_receptacle.png \
+    qml/img/usb_B_plug.png \
     qml/img/usb_icon.png \
     qml/img/seriell_male.png \
     qml/img/seriell_icon.png \
@@ -93,12 +100,13 @@ OTHER_FILES += \
     qml/img/midi_male.png \
     qml/img/midi_female.png \
     qml/img/ps2.png \
-    qml/harbour-ohm.qml \
     harbour-ohm.desktop \
     translations/*.ts \
     rpm/harbour-ohm.spec
 
-# INSTALLS += translations
+INSTALLS += translations
+
+TRANSLATIONS = translations/harbour-ohm-sv.ts
 # only include these files for translation:
 lupdate_only {
     SOURCES = qml/*.qml \

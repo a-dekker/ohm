@@ -65,6 +65,12 @@ Page {
                 icon: "../img/usb_icon.png"
             }
             ListElement {
+                page: "micro_usb_pins.qml"
+                title: qsTr("Mini/Micro USB")
+                section: "Connector Pin Assignments"
+                icon: "../img/micro_usb_icon.png"
+            }
+            ListElement {
                 page: "vga_pins.qml"
                 title: qsTr("VGA")
                 section: "Connector Pin Assignments"
@@ -139,36 +145,22 @@ Page {
                 text: model.title
                 color: highlighted ? Theme.highlightColor : Theme.primaryColor
             }
-            Image {
+            HighlightImage {
                 anchors.right: parent.right
                 anchors.rightMargin: Theme.paddingLarge
                 anchors.verticalCenter: parent.verticalCenter
                 fillMode: Image.PreserveAspectFit
                 source: model.icon
+                color: Theme.primaryColor
                 height: mainapp.mediumScreen || mainapp.largeScreen ? 128 : 64
                 width: height
-                layer.effect: ShaderEffect {
-                    property color color: Theme.primaryColor
-
-                    fragmentShader: "
-                    varying mediump vec2 qt_TexCoord0;
-                    uniform highp float qt_Opacity;
-                    uniform lowp sampler2D source;
-                    uniform highp vec4 color;
-                    void main() {
-                        highp vec4 pixelColor = texture2D(source, qt_TexCoord0);
-                        gl_FragColor = vec4(mix(pixelColor.rgb/max(pixelColor.a, 0.00390625), color.rgb/max(color.a, 0.00390625), color.a) * pixelColor.a, pixelColor.a) * qt_Opacity;
-                    }
-                    "
-                }
-                layer.enabled: true
-                layer.samplerName: "source"
             }
 
             onClicked: pageStack.push(Qt.resolvedUrl(model.page))
         }
 
         VerticalScrollDecorator {
+            flickable: listView
         }
     }
 }
