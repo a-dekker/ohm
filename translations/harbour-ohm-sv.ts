@@ -69,7 +69,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="69"/>
         <source>Mini/Micro USB</source>
-        <translation type="unfinished"></translation>
+        <translation>Mini-/Micro-USB</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="75"/>
@@ -834,120 +834,120 @@
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="14"/>
         <source>PIN 1</source>
-        <translation type="unfinished">STIFT 1</translation>
+        <translation>STIFT 1</translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="15"/>
         <source>Red</source>
-        <translation type="unfinished"></translation>
+        <translation>Röd</translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="16"/>
         <source>VBUS</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="17"/>
         <source>VCC (+5 V)</source>
-        <translation type="unfinished">VCC (+5 V)</translation>
+        <translation>VCC (+5 V)</translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="20"/>
         <source>PIN 2</source>
-        <translation type="unfinished">STIFT 2</translation>
+        <translation>STIFT 2</translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="21"/>
         <source>White</source>
-        <translation type="unfinished"></translation>
+        <translation>Vit</translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="22"/>
         <source>D-</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="23"/>
         <source>Data −</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="26"/>
         <source>PIN 3</source>
-        <translation type="unfinished">STIFT 3</translation>
+        <translation>STIFT 3</translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="27"/>
         <source>Green</source>
-        <translation type="unfinished"></translation>
+        <translation>Grön</translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="28"/>
         <source>D+</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="29"/>
         <source>Data +</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="32"/>
         <source>PIN 4</source>
-        <translation type="unfinished">STIFT 4</translation>
+        <translation>STIFT 4</translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="34"/>
         <location filename="../qml/pages/micro_usb_pins.qml" line="35"/>
         <source>ID</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="38"/>
         <source>PIN 5</source>
-        <translation type="unfinished">STIFT 5</translation>
+        <translation>STIFT 5</translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="39"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Svart</translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="40"/>
         <source>GND</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="41"/>
         <source>Ground</source>
-        <translation type="unfinished">Jord</translation>
+        <translation>Jord</translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="55"/>
         <source>Micro USB pin assignments</source>
-        <translation type="unfinished"></translation>
+        <translation>Micro-USB stifttilldelning</translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="59"/>
         <source>Micro-B</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="71"/>
         <location filename="../qml/pages/micro_usb_pins.qml" line="121"/>
         <source>Male plug</source>
-        <translation type="unfinished"></translation>
+        <translation>Hankontakt</translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="91"/>
         <location filename="../qml/pages/micro_usb_pins.qml" line="141"/>
         <source>Female receptacle</source>
-        <translation type="unfinished"></translation>
+        <translation>Honuttag</translation>
     </message>
     <message>
         <location filename="../qml/pages/micro_usb_pins.qml" line="109"/>
         <source>Mini-B</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1312,52 +1312,52 @@
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="15"/>
         <source>Red</source>
-        <translation type="unfinished"></translation>
+        <translation>Röd</translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="16"/>
         <source>VBUS</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="21"/>
         <source>White</source>
-        <translation type="unfinished"></translation>
+        <translation>Vit</translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="22"/>
         <source>D-</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="23"/>
         <source>Data −</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="27"/>
         <source>Green</source>
-        <translation type="unfinished"></translation>
+        <translation>Grön</translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="28"/>
         <source>D+</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="29"/>
         <source>Data +</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="33"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Svart</translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="34"/>
         <source>GND</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="35"/>
@@ -1367,24 +1367,24 @@
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="53"/>
         <source>USB A</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="65"/>
         <location filename="../qml/pages/usb_pins.qml" line="117"/>
         <source>Male plug</source>
-        <translation type="unfinished"></translation>
+        <translation>Hankontakt</translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="86"/>
         <location filename="../qml/pages/usb_pins.qml" line="138"/>
         <source>Female receptacle</source>
-        <translation type="unfinished"></translation>
+        <translation>Honuttag</translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="105"/>
         <source>USB B</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qml/pages/usb_pins.qml" line="20"/>
