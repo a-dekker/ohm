@@ -12,6 +12,7 @@ Page {
         VerticalScrollDecorator {}
         Column {
             id: column
+            width: page.width
             spacing: Theme.paddingSmall
             property real dotspace: resScale === 1 ? Theme.itemSizeSmall / 2.2 : Theme.itemSizeSmall / 2.2 * ( resScale * 0.7)
             property bool defaultdimm: false
@@ -726,30 +727,6 @@ Page {
                 width: 1
                 height: Theme.paddingLarge
             }
-
-
-            //            Slider {
-            //                id: userSlider
-            //                width: page.width - Theme.paddingLarge *2
-            //                anchors.horizontalCenter: parent.horizontalCenter
-            //                stepSize: 1
-            //                value: 4
-            //                minimumValue: 3
-            //                maximumValue: 6
-
-            ////                onValueChanged: {
-            ////                    console.log("value is now: " + value)
-
-            ////                }
-            //            }
-            //            Label {
-            //                text : "Number of Rings: " + column.rings
-            //                font.pixelSize: Theme.fontSizeExtraSmall / 1.5
-            //                anchors {
-            //                    horizontalCenter: parent.horizontalCenter
-            //                }
-            //            }
-
         }
     }
 

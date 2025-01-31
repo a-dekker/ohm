@@ -1,4 +1,4 @@
-import QtQuick 2.0
+import QtQuick 2.6
 import Sailfish.Silica 1.0
 import "components/"
 
@@ -57,9 +57,11 @@ Page {
             }
             SectionHeader {
                 text: qsTr("MIDI male")
+                visible: isPortrait
             }
             HighlightImage {
                 id: img1
+                visible: isPortrait
                 anchors {
                     horizontalCenter: parent.horizontalCenter
                     topMargin: Theme.paddingSmall / 4
@@ -74,9 +76,11 @@ Page {
 
             SectionHeader {
                 text: qsTr("MIDI female")
+                visible: isPortrait
             }
             HighlightImage {
                 id: img2
+                visible: isPortrait
                 anchors {
                     horizontalCenter: parent.horizontalCenter
                     topMargin: Theme.paddingSmall / 4
@@ -89,6 +93,33 @@ Page {
                 height: 200 * resScale
             }
 
+            SectionHeader {
+                text: qsTr("MIDI male + female")
+                visible: isLandscape
+            }
+            Row {
+                visible: isLandscape
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                    topMargin: Theme.paddingSmall / 4
+                    bottomMargin: Theme.paddingSmall / 4
+                }
+                HighlightImage {
+                    fillMode: Image.PreserveAspectFit
+                    source: "../img/midi_male.png"
+                    color: Theme.primaryColor
+                    width: 350 * resScale
+                    height: 200 * resScale
+                }
+
+                HighlightImage {
+                    fillMode: Image.PreserveAspectFit
+                    source: "../img/midi_female.png"
+                    color: Theme.primaryColor
+                    width: 250 * resScale
+                    height: 200 * resScale
+                }
+            }
             Label {
                 text: qsTr("Musical Instrument Digital Interface\n")
                 font.pixelSize: mainapp.largeScreen ? Theme.fontSizeMedium : Theme.fontSizeSmall
@@ -105,8 +136,7 @@ Page {
                 horizontalAlignment: Qt.AlignHCenter
             }
 
-            VerticalScrollDecorator {
-            }
+            VerticalScrollDecorator {}
 
             PinsDetails {
                 model: pagesModel

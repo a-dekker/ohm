@@ -8,6 +8,8 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Fri Jan 31 2025 Arno Dekker <jack.tar@example.com> 1.5-1
+- Allow landscape and landscape fixes
 * Tue Jan 07 2025 Arno Dekker <jack.tar@example.com> 1.4-1
 - Added Swedish translation by Eson57
 - Elros34: extended USB page

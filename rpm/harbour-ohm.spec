@@ -5,7 +5,7 @@ Name:       harbour-ohm
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Helper tool for electronic parts
-Version:    1.4
+Version:    1.5
 Release:    1
 Group:      Qt/Qt
 License:    LICENSE

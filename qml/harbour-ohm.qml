@@ -44,6 +44,8 @@ ApplicationWindow
         if (Theme.colorScheme == Theme.LightOnDark) return false
         else return true
     }
+    allowedOrientations: defaultAllowedOrientations
+    _defaultPageOrientations: defaultAllowedOrientations
 
     initialPage: mainPageContainer
 

@@ -81,9 +81,11 @@ Page {
 
             SectionHeader {
                 text: qsTr("Serial/RS232 male")
+                visible: isPortrait
             }
             HighlightImage {
                 id: img1
+                visible: isPortrait
                 anchors {
                     horizontalCenter: parent.horizontalCenter
                     topMargin: Theme.paddingSmall / 4
@@ -97,10 +99,17 @@ Page {
             }
             SectionHeader {
                 text: qsTr("Serial/RS232 female")
+                visible: isPortrait
+              }
+
+            SectionHeader {
+                text: qsTr("Serial/RS232 male + female")
+                visible: isLandscape
             }
 
             HighlightImage {
                 id: img2
+                visible: isPortrait
                 anchors {
                     horizontalCenter: parent.horizontalCenter
                     topMargin: Theme.paddingSmall / 4
@@ -113,6 +122,33 @@ Page {
                 height: 200 * resScale
             }
 
+            Row {
+                visible: isLandscape
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                    topMargin: Theme.paddingSmall / 4
+                    bottomMargin: Theme.paddingSmall / 4
+                }
+                HighlightImage {
+                    fillMode: Image.PreserveAspectFit
+                    source: "../img/seriell_male.png"
+                    color: Theme.primaryColor
+                    width: 250 * resScale
+                    height: 200 * resScale
+                }
+                Rectangle {
+                    color: "transparent"
+                    width: Theme.paddingLarge * 4
+                    height: width
+                }
+                HighlightImage {
+                    fillMode: Image.PreserveAspectFit
+                    source: "../img/serial_female.png"
+                    color: Theme.primaryColor
+                    width: 250 * resScale
+                    height: 200 * resScale
+                }
+            }
             Separator {
                 id: effect
                 color: Theme.primaryColor
@@ -121,8 +157,7 @@ Page {
                 horizontalAlignment: Qt.AlignHCenter
             }
 
-            VerticalScrollDecorator {
-            }
+            VerticalScrollDecorator {}
 
             PinsDetails {
                 model: pagesModel

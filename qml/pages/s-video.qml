@@ -101,6 +101,7 @@ Page {
             }
             HighlightImage {
                 id: img1
+                visible: isPortrait
                 anchors {
                     horizontalCenter: parent.horizontalCenter
                     topMargin: Theme.paddingSmall / 4
@@ -113,7 +114,8 @@ Page {
                 height: 200 * resScale
             }
             HighlightImage {
-                id : img2
+                id: img2
+                visible: isPortrait
                 anchors {
                     horizontalCenter: parent.horizontalCenter
                     topMargin: 0
@@ -125,6 +127,28 @@ Page {
                 width: 350 * resScale
                 height: 200 * resScale
             }
+            Row {
+                visible: isLandscape
+                anchors {
+                    horizontalCenter: parent.horizontalCenter
+                    topMargin: Theme.paddingSmall / 4
+                    bottomMargin: Theme.paddingSmall / 4
+                }
+                HighlightImage {
+                    fillMode: Image.PreserveAspectFit
+                    source: "../img/s-video.png"
+                    color: Theme.primaryColor
+                    width: 350 * resScale
+                    height: 200 * resScale
+                }
+                HighlightImage {
+                    fillMode: Image.PreserveAspectFit
+                    source: "../img/s-video-7.png"
+                    color: Theme.primaryColor
+                    width: 350 * resScale
+                    height: 200 * resScale
+                }
+            }
 
             Separator {
                 id: effect
@@ -134,8 +158,7 @@ Page {
                 horizontalAlignment: Qt.AlignHCenter
             }
 
-            VerticalScrollDecorator {
-            }
+            VerticalScrollDecorator {}
 
             SectionHeader {
                 text: qsTr("4 pins")

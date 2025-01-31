@@ -730,17 +730,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/db25_pins.qml" line="260"/>
+        <location filename="../qml/pages/db25_pins.qml" line="262"/>
         <source>Female</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/db25_pins.qml" line="287"/>
+        <location filename="../qml/pages/db25_pins.qml" line="266"/>
+        <source>Male + Female</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/db25_pins.qml" line="324"/>
         <source>Serial/RS232</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/db25_pins.qml" line="303"/>
+        <location filename="../qml/pages/db25_pins.qml" line="340"/>
         <source>Parallel</source>
         <translation type="unfinished"></translation>
     </message>
@@ -768,7 +773,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/dipswitch.qml" line="216"/>
+        <location filename="../qml/pages/dipswitch.qml" line="217"/>
         <source>Enter your value</source>
         <translation type="unfinished"></translation>
     </message>
@@ -776,12 +781,12 @@
 <context>
     <name>induction</name>
     <message>
-        <location filename="../qml/pages/induction.qml" line="24"/>
+        <location filename="../qml/pages/induction.qml" line="25"/>
         <source>Inductor Colorcode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/induction.qml" line="115"/>
+        <location filename="../qml/pages/induction.qml" line="116"/>
         <source> H</source>
         <translation type="unfinished"></translation>
     </message>
@@ -963,12 +968,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/midi.qml" line="76"/>
+        <location filename="../qml/pages/midi.qml" line="78"/>
         <source>MIDI female</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/midi.qml" line="93"/>
+        <location filename="../qml/pages/midi.qml" line="97"/>
+        <source>MIDI male + female</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/midi.qml" line="124"/>
         <source>Musical Instrument Digital Interface
 </source>
         <translation type="unfinished"></translation>
@@ -1082,8 +1092,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/rj45_pins.qml" line="92"/>
+        <location filename="../qml/pages/rj45_pins.qml" line="94"/>
         <source>Ethernet female</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/rj45_pins.qml" line="98"/>
+        <source>Ethernet male + female</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1100,12 +1115,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/s-video.qml" line="141"/>
+        <location filename="../qml/pages/s-video.qml" line="164"/>
         <source>4 pins</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/s-video.qml" line="148"/>
+        <location filename="../qml/pages/s-video.qml" line="171"/>
         <source>7 pins</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1267,8 +1282,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/serial_pins.qml" line="99"/>
+        <location filename="../qml/pages/serial_pins.qml" line="101"/>
         <source>Serial/RS232 female</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/serial_pins.qml" line="106"/>
+        <source>Serial/RS232 male + female</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1679,8 +1699,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/vga_pins.qml" line="137"/>
+        <location filename="../qml/pages/vga_pins.qml" line="139"/>
         <source>Female (DE-15/HD-15)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/vga_pins.qml" line="144"/>
+        <source>Male + Female (DE-15/HD-15)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

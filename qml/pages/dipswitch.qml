@@ -200,7 +200,8 @@ Page {
                 id: valueField
                 width: parent.width - Theme.paddingLarge
                 placeholderText: qsTr("Enter value (max 511)")
-                inputMethodHints: Qt.ImhDigitsOnly
+                //Qt.ImhDigitsOnly does not work in landscape
+                inputMethodHints: isPortrait ? Qt.ImhDigitsOnly : Qt.ImhPreferNumbers
                 validator: RegExpValidator {
                     regExp: /^[0-9]{1,3}$/
                 }
