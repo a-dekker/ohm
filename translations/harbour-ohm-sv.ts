@@ -487,13 +487,13 @@
     </message>
     <message>
         <location filename="../qml/pages/atx_24pin.qml" line="128"/>
-        <source>-5V</source>
+        <source>NC</source>
         <translation>-5V</translation>
     </message>
     <message>
         <location filename="../qml/pages/atx_24pin.qml" line="129"/>
-        <source>Optional (removed in newer ATX versions)</source>
-        <translation>Valfri (borttagen i nyare ATX-versioner)</translation>
+        <source>-5V Not Connected (removed in newer ATX versions)</source>
+        <translation>-5V Ej ansluten (borttagen i nyare ATX-versioner)</translation>
     </message>
     <message>
         <location filename="../qml/pages/atx_24pin.qml" line="132"/>

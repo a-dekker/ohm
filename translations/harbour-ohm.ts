@@ -487,12 +487,12 @@
     </message>
     <message>
         <location filename="../qml/pages/atx_24pin.qml" line="128"/>
-        <source>-5V</source>
+        <source>NC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/atx_24pin.qml" line="129"/>
-        <source>Optional (removed in newer ATX versions)</source>
+        <source>-5V Not Connected (removed in newer ATX versions)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
