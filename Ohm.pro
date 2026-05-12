@@ -52,6 +52,7 @@ OTHER_FILES += \
     qml/pages/serial_pins.qml \
     qml/pages/midi.qml \
     qml/pages/iso11446.qml \
+    qml/pages/atx_24pin.qml \
     qml/pages/components/PinsDetails.qml \
     qml/harbour-ohm.qml \
     qml/img/capacitor.png \
@@ -91,6 +92,8 @@ OTHER_FILES += \
     qml/img/hdmi_female.png \
     qml/img/displayport_female.png \
     qml/img/ISO11446.png \
+    qml/img/24pin_atx.png \
+    qml/img/24pin_atx_icon.png \
     harbour-ohm.desktop \
     translations/*.ts \
     rpm/harbour-ohm.spec

@@ -131,6 +131,12 @@ Page {
                 icon: "../img/midi_male.png"
             }
             ListElement {
+                page: "atx_24pin.qml"
+                title: qsTr("24 pin ATX")
+                section: "Connector Pin Assignments"
+                icon: "../img/24pin_atx.png"
+            }
+            ListElement {
                 page: "iso11446.qml"
                 title: qsTr("ISO 11446")
                 section: "Connector Pin Assignments"

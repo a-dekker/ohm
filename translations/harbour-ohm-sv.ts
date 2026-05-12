@@ -123,11 +123,16 @@
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="135"/>
+        <source>24 pin ATX</source>
+        <translation>24-stifts ATX</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="141"/>
         <source>ISO 11446</source>
         <translation>ISO 11446 Släpvagnskontakt</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="159"/>
+        <location filename="../qml/pages/MainPage.qml" line="165"/>
         <source>About</source>
         <translation>Om</translation>
     </message>
@@ -191,6 +196,339 @@
         <location filename="../qml/pages/coil.qml" line="160"/>
         <source>Enter any three values and click the button to calculate the fourth. You can use SI prefixes like k, M, G, m, u, etc. by typing them as the last letter.</source>
         <translation>Ange tre valfria värden och tryck på knappen för att beräkna det fjärde. Du kan använda SI-prefix som k, M, G, m, u, etc. genom att skriva dem som sista tecken.</translation>
+    </message>
+</context>
+<context>
+    <name>atx_24pin</name>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="12"/>
+        <source>PIN 1</source>
+        <translation>Stift 1</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="13"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="19"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="79"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="85"/>
+        <source>Orange</source>
+        <translation>Orange</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="14"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="20"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="80"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="86"/>
+        <source>+3.3V</source>
+        <translation>+3.3V</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="15"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="21"/>
+        <source>+3.3VDC</source>
+        <translation>+3.3VDC</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="18"/>
+        <source>PIN 2</source>
+        <translation>Stift 2</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="24"/>
+        <source>PIN 3</source>
+        <translation>Stift 3</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="25"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="37"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="49"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="97"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="109"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="115"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="121"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="151"/>
+        <source>Black</source>
+        <translation>Svart</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="26"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="38"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="50"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="98"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="110"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="116"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="122"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="152"/>
+        <source>GND</source>
+        <translation>GND</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="27"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="39"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="51"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="99"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="111"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="117"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="123"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="153"/>
+        <source>Ground</source>
+        <translation>Jord</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="30"/>
+        <source>PIN 4</source>
+        <translation>Stift 4</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="31"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="43"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="133"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="139"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="145"/>
+        <source>Red</source>
+        <translation>Röd</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="32"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="44"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="134"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="140"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="146"/>
+        <source>+5V</source>
+        <translation>+5V</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="33"/>
+        <source>Power for legacy peripherals (e.g. HDDs, optical drives</source>
+        <translation>Ström för äldre kringutrustning (t.ex. hårddiskar, optiska enheter)</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="36"/>
+        <source>PIN 5</source>
+        <translation>Stift 5</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="42"/>
+        <source>PIN 6</source>
+        <translation>Stift 6</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="45"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="141"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="147"/>
+        <source>Redundant +5V supply</source>
+        <translation>Redundant 5V-försörjning</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="48"/>
+        <source>PIN 7</source>
+        <translation>Stift 7</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="54"/>
+        <source>PIN 8</source>
+        <translation>Stift 8</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="55"/>
+        <source>Grey</source>
+        <translation>Grå</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="56"/>
+        <source>Power Good (PG)</source>
+        <translation>Strömförsörjning bra (PG)</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="57"/>
+        <source>Indicates stable voltages (sent after PSU self-tests)</source>
+        <translation>Indikerar stabila spänningar (skickas efter PSU-självtester)</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="60"/>
+        <source>PIN 9</source>
+        <translation>Stift 9</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="61"/>
+        <source>Purple</source>
+        <translation>Lila</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="62"/>
+        <source>+5VSB</source>
+        <translation>+5VSB</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="63"/>
+        <source>Standby power for wake-on-LAN and USB charging (active even when the PC is off)</source>
+        <translation>Standby-effekt för wake-on-LAN och USB-laddning (aktiv även när PC:n är avstängd)</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="66"/>
+        <source>PIN 10</source>
+        <translation>Stift 10</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="67"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="73"/>
+        <source>Yellow</source>
+        <translation>Gul</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="68"/>
+        <location filename="../qml/pages/atx_24pin.qml" line="74"/>
+        <source>+12V</source>
+        <translation>+12V</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="69"/>
+        <source>Primary power for CPU and GPU</source>
+        <translation>Primär strömförsörjning för CPU och GPU</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="72"/>
+        <source>PIN 11</source>
+        <translation>Stift 11</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="75"/>
+        <source>Redundant +12V supply</source>
+        <translation>Redundant 12V-försörjning</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="78"/>
+        <source>PIN 12</source>
+        <translation>Stift 12</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="81"/>
+        <source>Power for PCIe slots and memory</source>
+        <translation>Ström för PCIe-platser och minne</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="84"/>
+        <source>PIN 13</source>
+        <translation>Stift 13</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="87"/>
+        <source>Redundant +3.3V supply</source>
+        <translation>Redundant +3.3V-försörjning</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="90"/>
+        <source>PIN 14</source>
+        <translation>Stift 14</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="91"/>
+        <source>Blue</source>
+        <translation>Blå</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="92"/>
+        <source>-12V</source>
+        <translation>-12V</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="93"/>
+        <source>Legacy support for serial ports (rarely used today)</source>
+        <translation>Äldre stöd för seriella portar (används sällan idag)</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="96"/>
+        <source>PIN 15</source>
+        <translation>Stift 15</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="102"/>
+        <source>PIN 16</source>
+        <translation>Stift 16</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="103"/>
+        <source>Green</source>
+        <translation>Grön</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="104"/>
+        <source>PS-ON#</source>
+        <translation>PS-ON#</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="105"/>
+        <source>Power-on signal (low to activate PSU)</source>
+        <translation>Påslagningssignal (låg för att aktivera PSU)</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="108"/>
+        <source>PIN 17</source>
+        <translation>Stift 17</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="114"/>
+        <source>PIN 18</source>
+        <translation>Stift 18</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="120"/>
+        <source>PIN 19</source>
+        <translation>Stift 19</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="126"/>
+        <source>PIN 20</source>
+        <translation>Stift 20</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="127"/>
+        <source>White</source>
+        <translation>Vit</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="128"/>
+        <source>-5V</source>
+        <translation>-5V</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="129"/>
+        <source>Optional (removed in newer ATX versions)</source>
+        <translation>Valfri (borttagen i nyare ATX-versioner)</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="132"/>
+        <source>PIN 21</source>
+        <translation>Stift 21</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="135"/>
+        <source>Power for PCIe slots and peripherals</source>
+        <translation>Ström för PCIe-platser och kringutrustning</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="138"/>
+        <source>PIN 22</source>
+        <translation>Stift 22</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="144"/>
+        <source>PIN 23</source>
+        <translation>Stift 23</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="150"/>
+        <source>PIN 24</source>
+        <translation>Stift 24</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="162"/>
+        <source>24 pin ATX pin assignments</source>
+        <translation>24-stifts ATX stifttilldelning</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/atx_24pin.qml" line="173"/>
+        <source>Female connector</source>
+        <translation>Honanslutning</translation>
     </message>
 </context>
 <context>
